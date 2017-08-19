@@ -18,7 +18,7 @@ var gulp         = require('gulp'),
 // Browser-sync
 gulp.task('browser-sync', ['styles'], function() {
 		browserSync.init({
-				proxy: 'project',
+				proxy: 'wordpress',
 				notify: false
 		});
 });
@@ -70,7 +70,7 @@ gulp.task('watch', function () {
 	gulp.watch('./wordpress/wp-content/themes/project/**/*.php').on('change', browserSync.reload);
 });
 
-gulp.task('watch', ['browser-sync', 'watch']);
+gulp.task('default', ['browser-sync', 'watch']);
 
 // Builder
 gulp.task('build', function () {
