@@ -18,7 +18,7 @@ var gulp         = require('gulp'),
 // Browser-sync
 gulp.task('browser-sync', ['styles'], function() {
 		browserSync.init({
-				proxy: 'wordpress',
+				proxy: 'host',
 				notify: false
 		});
 });
