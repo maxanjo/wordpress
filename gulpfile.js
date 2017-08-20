@@ -42,8 +42,14 @@ gulp.task('styles', function () {
 	return gulp.src('./wp-content/themes/project/sass/*.sass')
 	.pipe(sass({
 		includePaths: require('node-bourbon').includePaths
-	}).on('error', sass.logError))
-	.pipe(rename({suffix: '.min', prefix : ''}))
+	}).on('error', notify.onError(function(err){
+      return{
+        title: 'Erorr in SASS',
+        message: err.message,
+        sound: true,
+        icon: 'notify.png'
+      }
+    })))
 	.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
 	.pipe(cleanCSS())
 	.pipe(gulp.dest('wp-content/themes/project/css'))
