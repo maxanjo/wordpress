@@ -8,4 +8,4 @@ show_admin_bar(false);
 add_theme_support('post-thumbnails');
 
 // Load up our awesome theme options
-require_once ( get_stylesheet_directory() . '/theme-options.php' );
+require  get_template_directory() . '/inc/function-admin.php';
