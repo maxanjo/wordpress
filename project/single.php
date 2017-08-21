@@ -6,7 +6,7 @@
 
             <!-- Blog Caption -->
             <div class="blog-single-caption">
-                <a class="backblog" href="<?php echo home_url(); ?>/blog"><?php _e('&lt; Back to the Blog','aletheme'); ?></a>
+                <a class="backblog" href="<?php echo home_url(); ?>/blog"><?php _e('&lt; Back to the Blog','webove'); ?></a>
             </div>
 
             <!-- Article -->
