@@ -1,3 +1,10 @@
+<?php
+$twitter_handler = esc_attr( get_option('twitter_handler'));
+$facebook_handler = esc_attr( get_option('facebook_handler'));
+$google_handler = esc_attr( get_option('google_handler'));
+$instagram_handler = esc_attr( get_option('instagram_handler'));
+$vk_handler = esc_attr( get_option('vk_handler'));
+?>
 <footer>
     
 </footer>
