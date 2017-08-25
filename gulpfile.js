@@ -11,7 +11,8 @@ var gulp         = require('gulp'),
 		gulpif = require('gulp-if'),
 		uglify = require('gulp-uglify'),
 		minifyCss = require('gulp-minify-css'),
-		sftp = require('gulp-sftp');
+    		spritesmith = require('gulp.spritesmith'),
+		sftp = require('gulp-sftp'),
 		notify = require('gulp-notify');
 
 
