@@ -26,13 +26,25 @@ gulp.task('browser-sync', ['styles'], function() {
 
 
 // SFTP
-gulp.task('sftp', function () {
-    return gulp.src('./wp-content/themes/project/*')
+gulp.task('sftp-full', function () {
+    return gulp.src(['./**', '!./node_modules/**', '!./git/**', '!./gulp.config.js', '!./gulpfile.js', '!./notify.png', '!./package.json'])
+
         .pipe(sftp({
-            host: 'localhost',
-            user: 'a0130638_darius',
-            pass: '09081993',
-            remotePath: '/home/a0130638/domains/webove.ru/public_html/test/'
+            host: '141.8.194.230',
+            user: 'a0130638',
+            pass: 'sauwibigpu',
+            remotePath: '/home/a0130638/domains/webove.ru/public_html/'
+        }));
+});
+
+gulp.task('sftp-theme', function () {
+    return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/sass/**'])
+
+        .pipe(sftp({
+            host: '141.8.194.230',
+            user: 'a0130638',
+            pass: 'sauwibigpu',
+            remotePath: '/home/a0130638/domains/webove.ru/public_html/wp-content/themes/project/'
         }));
 });
 
