@@ -25,6 +25,32 @@ $(document).ready(function(){
     mediaLogo.open();
   });
 
+  // Logo Footer uploader
+  var mediaLogoFooter;
+  $('#upload-button-logo-footer').on('click', function(e){
+    e.preventDefault();
+    if(mediaLogoFooter){
+      mediaLogoFooter.open();
+      return;
+    }
+
+    mediaLogoFooter = wp.media.frames.file_frame = wp.media({
+      title: 'Choose a Logo',
+      button: {
+        text: 'Choose Pitcure'
+      },
+      multiple: false
+    });
+
+    mediaLogoFooter.on('select', function(){
+      attachment = mediaLogoFooter.state().get('selection').first().toJSON();
+      $('#logo-footer').val(attachment.url);
+      $('#web-logo-footer').css('background-image', 'url(' +attachment.url +')');
+    });
+
+    mediaLogoFooter.open();
+  });
+
 // Favicon uploader
   var mediaFavicon;
   $('#upload-button-favicon').on('click', function(a){
@@ -34,7 +60,7 @@ $(document).ready(function(){
       return;
     }
     mediaFavicon = wp.media.frames.file_frame = wp.media({
-      title: 'Choose a Logo',
+      title: 'Choose a Favicon',
       button: {
         text: 'Choose Pitcure'
       },

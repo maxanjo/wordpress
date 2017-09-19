@@ -7,8 +7,8 @@
 */
 
 function web_load_admin_scripts($current_){
-	if('toplevel_page_my_theme' !== $current_){return;}
-	
+	// if('toplevel_page_my_theme' !== $current_){return;}
+
 	wp_enqueue_media();
 	
 	wp_register_style('web-admin', get_template_directory_uri() . '/inc/css/template.admin.css', array(), '1.0.0', 'all');
