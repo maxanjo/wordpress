@@ -103,7 +103,7 @@ function webove_general_favicon(){
 
 
 function webove_general_copyright(){
-	$copyright = esc_attr( get_option('web_copyright'));
+	$copyright = get_option('web_copyright');
 	echo '<textarea rows="8"  class="copyright-text"  name="web_copyright" value="' . $copyright . '" >' . $copyright . '</textarea>';
 }
 }
