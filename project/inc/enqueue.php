@@ -15,7 +15,7 @@ function web_load_admin_scripts($current_){
 		wp_enqueue_style('web-admin');
 		wp_register_script('web-jquery', get_template_directory_uri() . '/inc/js/jquery.min.js', '1.0.0', true);
 		wp_enqueue_script('web-jquery');
-		wp_register_script('web-editor', 'https://cdn.ckeditor.com/4.7.3/standard/ckeditor.js', '4.7.3', true);
+		wp_register_script('web-editor', 'https://cdn.ckeditor.com/4.7.3/basic/ckeditor.js', '4.7.3', true);
 		wp_enqueue_script('web-editor');
 		wp_register_script('web-admin-script', get_template_directory_uri() . '/inc/js/template.admin.js', array('jquery'), '1.0.0', true);
 		wp_enqueue_script('web-admin-script');
