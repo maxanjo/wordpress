@@ -17,6 +17,7 @@ function web_add_admin_page(){
  	add_submenu_page( 'my_theme', 'Webove Theme Options', 'General', 'manage_options', 'my_theme', 'Webove_theme_create_page' );
 	add_submenu_page( 'my_theme', 'Webove Social', 'Social', 'manage_options', 'my_theme_social', 'Webove_theme_setting_page' );
 	add_submenu_page( 'my_theme', 'Custom Css', 'Custom Css', 'manage_options', 'my_theme_css', 'Webove_custom_css_page' );
+	add_submenu_page( 'my_theme', 'Additional', 'Additional', 'manage_options', 'my_theme_additional', 'Webove_custom_additional_page' );
 
 	//Activate Custom_Settings
 	//add_action(initialization, function name)
@@ -33,6 +34,10 @@ function Webove_theme_create_page(){
 function Webove_theme_setting_page()
 {
 	require_once( get_template_directory() . '/inc/templates/template-social.php');
+};
+function Webove_custom_additional_page()
+{
+	require_once( get_template_directory() . '/inc/templates/template-additional.php');
 };
 //Css Page
 function Webove_custom_css_page()
