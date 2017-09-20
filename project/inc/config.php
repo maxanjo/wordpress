@@ -6,6 +6,11 @@ $options = array(
 				'type' => 'text'
 			),
 		array(
+				'title'=> 'Youtube',
+				'id'=>'web_youtube',
+				'type' => 'text'
+			),
+		array(
 				'title'=> 'Facebook',
 				'id'=>'web_facebook',
 				'type' => 'text'
