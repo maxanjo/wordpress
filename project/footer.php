@@ -1,9 +1,10 @@
 <?php
-$twitter_handler = esc_attr( get_option('twitter_handler'));
-$facebook_handler = esc_attr( get_option('facebook_handler'));
-$google_handler = esc_attr( get_option('google_handler'));
-$instagram_handler = esc_attr( get_option('instagram_handler'));
-$vk_handler = esc_attr( get_option('vk_handler'));
+$twitter_handler = esc_attr( get_option('web_twitter_handler'));
+$facebook_handler = esc_attr( get_option('web_facebook_handler'));
+$google_handler = esc_attr( get_option('web_google_handler'));
+$instagram_handler = esc_attr( get_option('web_instagram_handler'));
+$vk_handler = esc_attr( get_option('web_vk_handler'));
+$logo_footer = esc_attr( get_option( 'web_logo_footer'));
 ?>
 <footer>
     
