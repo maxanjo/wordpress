@@ -1,6 +1,11 @@
 <?php
  $logo_picture = esc_attr( get_option( 'web_logo_picture')); 
  $favicon_picture = esc_attr( get_option( 'web_favicon_picture')); 
+ $twitter_handler = esc_attr( get_option('web_twitter_handler'));
+ $facebook_handler = esc_attr( get_option('web_facebook_handler'));
+ $google_handler = esc_attr( get_option('web_google_handler'));
+ $instagram_handler = esc_attr( get_option('web_instagram_handler'));
+ $vk_handler = esc_attr( get_option('web_vk_handler'));
 ?>
 <!DOCTYPE html>
 <html>
