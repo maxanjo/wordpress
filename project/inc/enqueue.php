@@ -33,6 +33,12 @@ function web_load_admin_scripts($current_){
 			wp_enqueue_style('web-admin');
 			wp_enqueue_style('ace', get_template_directory_uri() . '/inc/css/ace.css', array(), '1.0.0', 'all');
 		}
+		else if('webove_page_my_theme_additional' == $current_){
+			wp_register_script('web-jquery', get_template_directory_uri() . '/inc/js/jquery.min.js', '1.0.0', true);
+			wp_enqueue_script('web-jquery');
+			wp_register_style('web-admin', get_template_directory_uri() . '/inc/css/template.admin.css', array(), '1.0.0', 'all');
+			wp_enqueue_style('web-admin');
+		}
 		else{return;};
 	}
 add_action ('admin_enqueue_scripts', 'web_load_admin_scripts');
