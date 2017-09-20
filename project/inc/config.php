@@ -31,3 +31,11 @@ $options = array(
 				'type' => 'text'
 			),
 		);
+
+$additionals = array(
+		array(
+				'title'=> 'field',
+				'id'=>'web_field',
+				'type' => 'text'
+			),
+		);
