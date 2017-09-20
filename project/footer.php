@@ -5,6 +5,7 @@ $google_handler = esc_attr( get_option('web_google_handler'));
 $instagram_handler = esc_attr( get_option('web_instagram_handler'));
 $vk_handler = esc_attr( get_option('web_vk_handler'));
 $logo_footer = esc_attr( get_option( 'web_logo_footer'));
+$copyright = get_option('web_copyright');
 ?>
 <footer>
     
