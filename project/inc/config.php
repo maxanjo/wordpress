@@ -1,4 +1,5 @@
 <?php 
+// Social
 $options = array(
 		array(
 				'title'=> 'Twitter',
@@ -32,6 +33,7 @@ $options = array(
 			),
 		);
 
+// Additional
 $additionals = array(
 		array(
 				'title'=> 'field',
