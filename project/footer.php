@@ -8,10 +8,12 @@ $logo_footer = esc_attr( get_option( 'web_logo_footer'));
 $copyright = get_option('web_copyright');
 ?>
 <footer>
-    <?php wp_nav_menu(array(
+    <div class="container">
+        <?php wp_nav_menu(array(
             'theme_location' => 'primary',
             'id' => ''
-        )) ?>
+            )) ?>
+    </div><!-- container-area -->
 </footer>
     <!--build:js scripts/vendor.min.js-->
     <script src="<?php echo get_template_directory_uri() ?>/scripts/jquery.min.js"></script>
@@ -37,10 +39,10 @@ $copyright = get_option('web_copyright');
     <script>
       function loadCss(hf){
         var ms=document.createElement("link"); ms.rel="stylesheet";ms.href=hf;document.getElementsByTagName("body")[0].appendChild(ms);
-      }
-      loadCss ("css/vendor.min.css");
-      loadCss ("css/main.min.css");
-    </script>
-    <?php wp_footer() ?>
-  </body>
+    }
+    loadCss ("css/vendor.min.css");
+    loadCss ("css/main.min.css");
+</script>
+<?php wp_footer() ?>
+</body>
 </html>

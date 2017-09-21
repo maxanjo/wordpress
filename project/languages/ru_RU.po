@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Webove Framework 1.0\n"
-"POT-Creation-Date: 2017-09-21 17:44+0400\n"
-"PO-Revision-Date: 2017-09-21 17:45+0400\n"
+"POT-Creation-Date: 2017-09-21 22:50+0400\n"
+"PO-Revision-Date: 2017-09-21 22:51+0400\n"
 "Last-Translator: \n"
 "Language-Team: Maxim Sokolov, maxanjo512@gmail.com\n"
 "Language: ru\n"
@@ -16,13 +16,25 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: blog-page.php:45
-msgid "Prev"
+#: 404.php:4
+msgid ""
+"Sorry, but the page you are looking for has not found. Try checking the URL "
+"for errors, then hit the refresh<br /> button on your browser"
 msgstr ""
+"Извините, но страница, которую вы ищете не найдена. Попробуйте проверять URL-"
+"ссылку в вашем браузере на наличие ошибок, а затем нажмите кнопку Обновить."
 
-#: blog-page.php:46
+#: blog-page.php:26 search.php:21
+msgid "Learn more"
+msgstr "Читать"
+
+#: blog-page.php:43
+msgid "Prev"
+msgstr "Назад"
+
+#: blog-page.php:44
 msgid "Next"
-msgstr ""
+msgstr "Вперед"
 
 #: inc/config.php:4
 msgid "Twitter"
@@ -159,9 +171,36 @@ msgstr "Загрузите вашу фавикон иконку: 16x16, 32x32, �
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: single.php:9
-msgid "&lt; Back to the Blog"
+#: search.php:29
+msgid "Previous page"
+msgstr "Назад"
+
+#: search.php:30
+msgid "Next page"
+msgstr "Вперед"
+
+#: search.php:36
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: search.php:37
+msgid ""
+"Sorry, but nothing matched your search criteria. Please type again with some "
+"different keywords"
 msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+"слова."
+
+#: searchform.php:2 searchform.php:3
+msgid "Search"
+msgstr "Поиск"
+
+#: single.php:17
+msgid "Back"
+msgstr "Назад"
+
+#~ msgid "&lt; Back to the Blog"
+#~ msgstr "Блог"
 
 #, fuzzy
 #~ msgid "Customize Your Social Settings"
