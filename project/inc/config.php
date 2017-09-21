@@ -1,39 +1,42 @@
 <?php 
-// Social
 $options = array(
 		array(
-				'title'=> 'Twitter',
+				'title'=> __('Twitter', 'webove'),
 				'id'=>'web_twitter',
 				'type' => 'text'
 			),
 		array(
-				'title'=> 'Youtube',
+				'title'=> __('Youtube', 'webove'),
 				'id'=>'web_youtube',
 				'type' => 'text'
 			),
 		array(
-				'title'=> 'Facebook',
+				'title'=> __('facebook', 'webove'),
 				'id'=>'web_facebook',
 				'type' => 'text'
 			),
 		array(
-				'title'=> 'google',
+				'title'=> __('google', 'webove'),
 				'id'=>'web_google',
 				'type' => 'text'
 			),
 		array(
-				'title'=> 'vk',
+				'title'=> __('vk', 'webove'),
 				'id'=>'web_vk',
 				'type' => 'text'
 			),
 		array(
-				'title'=> 'instagram',
+				'title'=> __('instagram', 'webove'),
 				'id'=>'web_instagram',
+				'type' => 'text'
+			),
+		array(
+				'title'=> __('odnoklassniki', 'webove'),
+				'id'=>'web_odnoklassniki',
 				'type' => 'text'
 			),
 		);
 
-// Additional
 $additionals = array(
 		array(
 				'title'=> 'field',

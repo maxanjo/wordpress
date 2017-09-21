@@ -5,5 +5,5 @@
 	<?php settings_fields('options_settings'); ?>
 	<!-- do_settings_section(calling settings you created on line 44) -->
 	<?php do_settings_sections('my_theme'); ?>
-	<?php submit_button('Save Changes', 'primary', 'btnSubmit'); ?>
+	<?php submit_button(__('Save Changes','webove'), 'primary', 'btnSubmit'); ?>
 </form>

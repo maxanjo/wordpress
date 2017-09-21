@@ -8,6 +8,9 @@
 	background: #ea1010;
 	color: #fff;
 }
+.cke_1_top{
+	z-index: 1000;
+}
 #wpbody .copyright-text{
 	width: 400px;
 }

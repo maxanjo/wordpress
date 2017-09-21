@@ -19,9 +19,7 @@
                     <input type="hidden" name="action" value="update" />
             <input type="hidden" name="page_options" value="<?php foreach($options as $option){echo $option['id'] . ',';}; ?>" />
 
-            <?php submit_button('Save Changes', 'primary', 'btnSubmit'); 
-            $reess = get_option('web_youtube');
-            echo gettype($reess)
+            <?php submit_button(); 
               ?>	
 
         </form>
