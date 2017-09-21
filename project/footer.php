@@ -38,5 +38,6 @@ $copyright = get_option('web_copyright');
       loadCss ("css/vendor.min.css");
       loadCss ("css/main.min.css");
     </script>
+    <?php wp_footer() ?>
   </body>
 </html>
