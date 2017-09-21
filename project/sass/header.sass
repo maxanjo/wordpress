@@ -5,3 +5,110 @@
 @import ../css/sprite
 
 // Header
+menu#menu.fixed
+  position: fixed
+  width: 100%
+  background: #fff
+
+menu#menu
+  border-bottom: 1px solid #c2c2c2
+  height: auto
+  padding-bottom: 20px
+  min-width: 320px
+  .container
+    position: relative
+  .bar-mobile
+    position: relative
+    right: 0
+    top: 40px
+    margin-top: 7px
+    display: none
+    width: 23px
+    height: 14px
+    &::before
+      content: "Меню"
+      display: inline-block
+      color: #000
+      position: relative
+      top: -4px
+      right: 50px
+      font-weight: 400
+      font-family: $oSR
+      transition: .3s ease color
+      +m(480)
+        display: none
+    &:hover::before
+      color: $main
+    +m(1000)
+      display: block
+    span
+      background: #131313
+      height: 2px
+    &:hover span
+      background: $main
+    span.middle
+      margin-top: -1px
+
+
+  nav
+    float: right
+    +mm(1000)
+      display: block!important
+    +m(1000)
+      display: none
+      width: 100%
+      left: 0
+      top: 90px
+      text-align: center
+  .logo
+    display: inline-block
+    height: 40px
+    margin-top: 30px
+  .menu-main_menu-container
+    float: left
+    margin-top: 40px
+    +m(1000)
+      width: 100%
+      margin-top: 20px
+  ul
+    padding: 0
+    margin: 0
+    float: right
+    +m(1000)
+    width: 100%
+    li
+      float: left
+      +m(1000)
+        float: none
+        margin-right: 0
+        margin-top: 10px
+      margin-right: 35px
+      &:last-child
+        margin-right: 25px
+        +m(1000)
+          margin-right: 0
+      a
+        font-size: 1.4rem
+        font-family: $oSR
+        color: #313131
+        display: block
+        transition: .3s ease color
+        &:hover
+          color: $main
+        &::after
+          content: ""
+          height: 2px
+          width: 100%
+          background: $main
+          display: block
+          opacity: 0
+          transition: .3s  transform, opacity ease
+          +m(1000)
+            display: none
+        &:hover::after
+          color: $main
+          position: relative
+          transform: translateY(28px)
+          opacity: 1
+  a.button:hover
+    color: #fff
