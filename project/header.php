@@ -42,10 +42,21 @@
   </head>
   <body>
     <header>
+    <menu id="menu" class="default">
         <div class="container">
-        <?php wp_nav_menu(array(
-            'theme_location' => 'primary',
-            'id' => ''
-        )) ?>
+        <a href="/"><div class="logo"><img src="<?php print $logo_picture ?>" alt="Home"></div></a>
+        <div class="bar-mobile">
+            <span class="top"></span>
+            <span class="middle"></span>
+            <span class="bottom"></span>
+        </div>
+
+        <nav class="main-nav">
+            <?php wp_nav_menu(array(
+                      'theme_location' => 'primary',
+                      'id' => ''
+                  )) ?> 
+        </nav>
         </div><!-- container-area -->
+    </menu>
     </header>
