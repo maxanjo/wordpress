@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webove Framework 1.0\n"
+"POT-Creation-Date: 2017-09-20 23:39+0400\n"
+"PO-Revision-Date: 2017-09-20 23:40+0400\n"
+"Last-Translator: \n"
+"Language-Team: Maxim Sokolov, maxanjo512@gmail.com\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/config.php:4
+msgid "Twitter"
+msgstr "Твитер"
+
+#: inc/config.php:9
+msgid "Youtube"
+msgstr "Ютуб"
+
+#: inc/config.php:14
+msgid "facebook"
+msgstr "Фейсбук"
+
+#: inc/config.php:19
+msgid "google"
+msgstr "Гугл"
+
+#: inc/config.php:24
+msgid "vk"
+msgstr "Вконтакте"
+
+#: inc/config.php:29
+msgid "instagram"
+msgstr "Инстаграм"
+
+#: inc/config.php:34
+msgid "odnoklassniki"
+msgstr "Одноклассники"
+
+#: inc/function-admin.php:19
+msgid "General options"
+msgstr "Общие настройки"
+
+#: inc/function-admin.php:19
+msgid "General"
+msgstr "Общие настройки"
+
+#: inc/function-admin.php:20
+msgid "Social options"
+msgstr "Настройка соцальных сетей"
+
+#: inc/function-admin.php:20
+msgid "Social"
+msgstr "Социальные сети"
+
+#: inc/function-admin.php:21 inc/templates/template-custom-css.php:1
+msgid "Custom css"
+msgstr "Пользовательский Css"
+
+#: inc/function-admin.php:21
+msgid "Custom Css"
+msgstr "Пользовательский Css"
+
+#: inc/function-admin.php:31
+msgid "Theme Options"
+msgstr "Персональные настройки темы"
+
+#: inc/function-admin.php:56
+msgid "General Options"
+msgstr "Основные настройки"
+
+#: inc/function-admin.php:57
+msgid "Css Options"
+msgstr "Css настройки"
+
+#: inc/function-admin.php:68
+msgid "insert your Custom Css"
+msgstr "Поле для ввода пользовательских стилей"
+
+#: inc/function-admin.php:70
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/function-admin.php:72
+msgid "Footer Logo"
+msgstr "Лого в футере"
+
+#: inc/function-admin.php:74
+msgid "Favicon"
+msgstr "Фавикон"
+
+#: inc/function-admin.php:76
+msgid "Copyright text"
+msgstr "Авторство"
+
+#: inc/function-admin.php:81
+msgid "Customize Your General Information"
+msgstr "Настройка общих параметров сайта"
+
+#: inc/function-admin.php:84
+msgid "Write your own styles in the form below"
+msgstr "Здесь вы можете написать свои собственные стили"
+
+#: inc/function-admin.php:102
+msgid "Upload Logo"
+msgstr "Загрузить Логотип"
+
+#: inc/function-admin.php:103
+msgid "Remove Logo"
+msgstr "Удалить Логотип"
+
+#: inc/function-admin.php:114
+msgid "Upload Footer Logo"
+msgstr "Загрузить логотип в футер"
+
+#: inc/function-admin.php:115
+msgid "Remove Footer Logo"
+msgstr "Удалить Логотип в футере"
+
+#: inc/function-admin.php:117
+msgid "If your theme support footer logo, please upload it here"
+msgstr "Если ваша тема поддерживает функцию Лого в подвале, загрузите ее здесь"
+
+#: inc/function-admin.php:128
+msgid "Upload Favicon"
+msgstr "Загрузить фавикон"
+
+#: inc/function-admin.php:129
+msgid "Remove Favicon"
+msgstr "Удалить фавиконку"
+
+#: inc/function-admin.php:131
+msgid "Load a favicon icon: 16x16, 32x32, or 48x48"
+msgstr "Загрузите вашу фавикон иконку: 16x16, 32x32, или 48x48"
+
+#: inc/templates/template-general.php:8
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: page.php:56
+msgid "Prev"
+msgstr ""
+
+#: page.php:57
+msgid "Next"
+msgstr ""
+
+#: single.php:9
+msgid "&lt; Back to the Blog"
+msgstr ""
