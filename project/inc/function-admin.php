@@ -99,7 +99,7 @@ function webove_general_logo(){
 		<div id="web-logo" class="web-logo" style="background-image: url('. $logo_picture .') ">
 		</div>
 	</div>
-	<input type="button" value="' . __('Upload Logo','webove') . '" class="button button-secondary" id="upload-button-logo">
+	<input type="button" value="' . __('Upload a Logo','webove') . '" class="button button-secondary" id="upload-button-logo">
 	<input type="button" value="' . __('Remove Logo','webove') . '" class="button button-danger remove-logo" id="remove-button-logo">
 	<input type="hidden" id="logo-picture" name="web_logo_picture" value="' . $logo_picture . '" >';
 }
@@ -111,7 +111,7 @@ function webove_general_logo_footer(){
 		<div id="web-logo-footer" class="web-logo-footer" style="background-image: url('. $logo_footer .') ">
 		</div>
 	</div>
-	<input type="button" value="' . __('Upload Footer Logo','webove') .'" class="button button-secondary" id="upload-button-logo-footer">
+	<input type="button" value="' . __('Upload a Footer Logo','webove') .'" class="button button-secondary" id="upload-button-logo-footer">
 	<input type="button" value="' . __('Remove Footer Logo','webove') .'" class="button button-secondary remove-logo-footer button-danger">
 	<input type="hidden" id="logo-footer" name="web_logo_footer" value="' . $logo_footer . '" >
 	<p class="description">' . __('If your theme support footer logo, please upload it here', 'webove') . '</p>
@@ -125,7 +125,7 @@ function webove_general_favicon(){
 		<div class="web-favicon-preview">
 			<div class="web-favicon" id="web-favicon" style="background-image: url('. $favicon_picture .') "></div>
 		</div>
-		<input type="button" value="' . __('Upload Favicon','webove') . '" class="button button-secondary" id="upload-button-favicon">
+		<input type="button" value="' . __('Upload a Favicon','webove') . '" class="button button-secondary" id="upload-button-favicon">
 		<input type="button" value="'. __('Remove Favicon', 'webove') . '" class="button  button-secondary button-danger remove-favicon" id="remove-button-favicon">
 		<input type="hidden" id="favicon-picture" name="web_favicon_picture" value="' . $favicon_picture . '" >
 		<p class="description">' . __('Load a favicon icon: 16x16, 32x32, or 48x48', 'webove') . '</p>
