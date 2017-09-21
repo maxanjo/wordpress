@@ -8,6 +8,8 @@ show_admin_bar(false);
 add_theme_support('post-thumbnails');
 
 register_nav_menu('primary', 'Primary menu');
+register_nav_menu('footer', 'Fotter menu');
+add_theme_support('html5',array('search-form'));
 
 // Load up our awesome theme options
 require  get_template_directory() . '/inc/function-admin.php';
@@ -47,3 +49,4 @@ function true_register_wp_sidebars() {
     );
 }
 add_action( 'widgets_init', 'true_register_wp_sidebars' );
+

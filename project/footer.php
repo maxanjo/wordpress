@@ -8,7 +8,10 @@ $logo_footer = esc_attr( get_option( 'web_logo_footer'));
 $copyright = get_option('web_copyright');
 ?>
 <footer>
-    
+    <?php wp_nav_menu(array(
+            'theme_location' => 'primary',
+            'id' => ''
+        )) ?>
 </footer>
     <!--build:js scripts/vendor.min.js-->
     <script src="<?php echo get_template_directory_uri() ?>/scripts/jquery.min.js"></script>

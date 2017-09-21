@@ -12,6 +12,8 @@
             <!-- Article -->
             <?php if (have_posts()) : while (have_posts()) : the_post();?>
                 <article class="media">
+                    <?php the_title(); ?>
+                    <?php the_post_thumbnail(array(100, 100)); ?>
                     <?php the_content() ?>
                 </article>
             <?php endwhile; else: ?>
@@ -20,9 +22,7 @@
         </main>
         
         <!-- Sidebar -->
-        <aside class="col-sm-4">
             <?php get_sidebar() ?>
-        </aside>
     </div>
 </div>
 

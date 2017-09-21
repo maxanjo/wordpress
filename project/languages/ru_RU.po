@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Webove Framework 1.0\n"
-"POT-Creation-Date: 2017-09-20 23:39+0400\n"
-"PO-Revision-Date: 2017-09-20 23:40+0400\n"
+"POT-Creation-Date: 2017-09-21 17:44+0400\n"
+"PO-Revision-Date: 2017-09-21 17:45+0400\n"
 "Last-Translator: \n"
 "Language-Team: Maxim Sokolov, maxanjo512@gmail.com\n"
 "Language: ru\n"
@@ -15,6 +15,14 @@ msgstr ""
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
 "X-Poedit-SearchPath-0: .\n"
+
+#: blog-page.php:45
+msgid "Prev"
+msgstr ""
+
+#: blog-page.php:46
+msgid "Next"
+msgstr ""
 
 #: inc/config.php:4
 msgid "Twitter"
@@ -52,9 +60,9 @@ msgstr "Общие настройки"
 msgid "General"
 msgstr "Общие настройки"
 
-#: inc/function-admin.php:20
+#: inc/function-admin.php:20 inc/templates/template-social.php:4
 msgid "Social options"
-msgstr "Настройка соцальных сетей"
+msgstr "Настройка социальных сетей"
 
 #: inc/function-admin.php:20
 msgid "Social"
@@ -68,7 +76,8 @@ msgstr "Пользовательский Css"
 msgid "Custom Css"
 msgstr "Пользовательский Css"
 
-#: inc/function-admin.php:31
+#: inc/function-admin.php:22 inc/function-admin.php:31
+#: inc/templates/template-additional.php:4
 msgid "Theme Options"
 msgstr "Персональные настройки темы"
 
@@ -109,7 +118,9 @@ msgid "Write your own styles in the form below"
 msgstr "Здесь вы можете написать свои собственные стили"
 
 #: inc/function-admin.php:102
-msgid "Upload Logo"
+#, fuzzy
+#| msgid "Upload Logo"
+msgid "Upload a Logo"
 msgstr "Загрузить Логотип"
 
 #: inc/function-admin.php:103
@@ -117,7 +128,9 @@ msgid "Remove Logo"
 msgstr "Удалить Логотип"
 
 #: inc/function-admin.php:114
-msgid "Upload Footer Logo"
+#, fuzzy
+#| msgid "Upload Footer Logo"
+msgid "Upload a Footer Logo"
 msgstr "Загрузить логотип в футер"
 
 #: inc/function-admin.php:115
@@ -129,7 +142,9 @@ msgid "If your theme support footer logo, please upload it here"
 msgstr "Если ваша тема поддерживает функцию Лого в подвале, загрузите ее здесь"
 
 #: inc/function-admin.php:128
-msgid "Upload Favicon"
+#, fuzzy
+#| msgid "Upload Favicon"
+msgid "Upload a Favicon"
 msgstr "Загрузить фавикон"
 
 #: inc/function-admin.php:129
@@ -144,14 +159,15 @@ msgstr "Загрузите вашу фавикон иконку: 16x16, 32x32, �
 msgid "Save Changes"
 msgstr "Сохранить изменения"
 
-#: page.php:56
-msgid "Prev"
-msgstr ""
-
-#: page.php:57
-msgid "Next"
-msgstr ""
-
 #: single.php:9
 msgid "&lt; Back to the Blog"
 msgstr ""
+
+#, fuzzy
+#~ msgid "Customize Your Social Settings"
+#~ msgstr "Соц"
+
+#, fuzzy
+#~| msgid "Social options"
+#~ msgid "Social Settings"
+#~ msgstr "Настройка соцальных сетей"
