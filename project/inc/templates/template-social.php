@@ -1,7 +1,7 @@
 <?php 
 	require_once( get_template_directory() . '/inc/config.php');
 	?>
-	<h1>Social Settings</h1>
+	<h1><?php echo _e('Social options','webove') ?></h1>
 		    <div class="wrap">
         <form method="post" action="options.php">
             <?php wp_nonce_field('update-options') ?>

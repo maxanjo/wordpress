@@ -1,7 +1,7 @@
 <?php 
 	require_once( get_template_directory() . '/inc/config.php');
 	?>
-	<h1>Social Settings</h1>
+	<h1><?php _e('Theme Options', 'webove') ?></h1>
 		    <div class="wrap">
         <form method="post" action="options.php">
             <?php wp_nonce_field('update-options') ?>
@@ -19,7 +19,7 @@
                     <input type="hidden" name="action" value="update" />
             <input type="hidden" name="page_options" value="<?php foreach($additionals as $additional){echo $additional['id'] . ',';}; ?>" />
 
-            <?php submit_button('Save Changes', 'primary', 'btnSubmit'); 
+            <?php submit_button(); 
               ?>	
 
         </form>

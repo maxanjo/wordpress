@@ -1,4 +1,4 @@
-<h1><?php __('Custom css','webove')?></h1>
+<h1><?php _e('Custom css','webove')?></h1>
 <form method="post" action="options.php" class="web-form-css-form">
 <?php settings_errors(); ?> 
 

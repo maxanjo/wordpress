@@ -44,3 +44,4 @@ $additionals = array(
 				'type' => 'text'
 			),
 		);
+
