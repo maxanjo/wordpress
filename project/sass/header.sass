@@ -19,7 +19,7 @@ menu#menu
     position: relative
   .bar-mobile
     position: relative
-    right: 0
+    right: 5px;
     top: 40px
     margin-top: 7px
     display: none
@@ -33,7 +33,7 @@ menu#menu
       top: -4px
       right: 50px
       font-weight: 400
-      font-family: $oSR
+      font-family: Arial
       transition: .3s ease color
       +m(480)
         display: none
@@ -89,26 +89,12 @@ menu#menu
           margin-right: 0
       a
         font-size: 1.4rem
-        font-family: $oSR
+        font-family: Arial
         color: #313131
         display: block
         transition: .3s ease color
         &:hover
           color: $main
-        &::after
-          content: ""
-          height: 2px
-          width: 100%
-          background: $main
-          display: block
-          opacity: 0
-          transition: .3s  transform, opacity ease
-          +m(1000)
-            display: none
-        &:hover::after
-          color: $main
-          position: relative
-          transform: translateY(28px)
-          opacity: 1
+
   a.button:hover
     color: #fff
