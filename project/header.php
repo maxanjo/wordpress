@@ -6,6 +6,7 @@
  $google_handler = esc_attr( get_option('web_google_handler'));
  $instagram_handler = esc_attr( get_option('web_instagram_handler'));
  $vk_handler = esc_attr( get_option('web_vk_handler'));
+ $logo_text = get_option( 'web_logo_text');
 ?>
 <!DOCTYPE html>
 <html>
