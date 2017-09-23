@@ -107,5 +107,5 @@ $('.remove-favicon').click(function(){
   })
   });
 CKEDITOR.replace( 'web_copyright' );
-
+CKEDITOR.replace( 'web_logo_text' );
   
