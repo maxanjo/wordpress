@@ -1,15 +1,20 @@
 @import mixins
 @import vars
+@import ../css/sprite
 
 a:hover
   color: $main
 
+ul
+  padding: 0
+
 h1,h2,h3,h4,h5,h6
   margin: 0
+  font-family: $oSR
 
 menu
-  padding: 0 
-  
+  padding: 0
+
 *, .container-fluid
   margin: 0
   outline: none
@@ -56,8 +61,8 @@ menu
 
 
 .row
-  margin-left: 0!important
-  margin-right: 0!important
+  margin-left: 0
+  margin-right: 0
 
 
 li
@@ -128,9 +133,41 @@ main#main
 .wb_search
   width: $sidebarWidth
   .text
-    width: 80%
+    width: calc(100% - 30px)
+    border: 1px solid #cfd9db
+    padding: 4px 0px 4px 10px
     float: left
-  .btn
-    width: 20%
+  ::-webkit-input-placeholder
+    font-family: $oSR
+    font-size: 1.2rem
+    color: #cfd9db
+  .button-search
     float: right
-    padding: 6px 0
+    +content
+    padding: 7px 7px
+    background: $main
+    outline: none
+    border: none
+  .icon-search
+    height: 16px
+    width: 16px
+    display: block
+    @include sprite($search)
+    
+
+// Pagination
+.pagination
+  font-family: $oSR
+  font-size: #456cff
+  +no-decor
+  a ,.current
+    margin: 0 3px
+  .current
+    color: #fff
+    font-weight: bold
+    background: $main
+    padding: 4px 10px
+    +br(4px)
+
+.more-link
+  display: none
