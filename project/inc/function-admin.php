@@ -19,7 +19,7 @@ function web_add_admin_page(){
  	add_submenu_page( 'my_theme', __('General options','webove'), __('General','webove'), 'manage_options', 'my_theme', 'Webove_theme_create_page' );
 	add_submenu_page( 'my_theme',__('Social options','webove'), __('Social','webove'), 'manage_options', 'my_theme_social', 'Webove_theme_setting_page' );
 	add_submenu_page( 'my_theme', __('Custom css','webove'), __('Custom Css','webove'), 'manage_options', 'my_theme_css', 'Webove_custom_css_page' );
-	add_submenu_page( 'my_theme', __('Theme Options', 'webove'), __('Theme Options', 'webove'), 'manage_options', 'my_theme_additional', 'Webove_custom_additional_page' );
+	//add_submenu_page( 'my_theme', __('Theme Options', 'webove'), __('Theme Options', 'webove'), 'manage_options', 'my_theme_additional', 'Webove_custom_additional_page' );
 
 	//Activate Custom_Settings
 	//add_action(initialization, function name)
