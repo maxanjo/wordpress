@@ -11,7 +11,13 @@
                          <h2 class="heading"><?php the_title(); ?></h2>
                     </div>
                     <div class="media">
-                        <div class="media-img"><?php the_post_thumbnail(array(100, 100)); ?></div>
+                     <?php if ( has_post_thumbnail() ) :?>
+                    <div class="media-img"><?php the_post_thumbnail(array(360, 230)); ?>
+                        <div class="date">
+                            <p class="day"><?php the_date('d') ?></p>
+                            <p class="month"><?php echo get_the_date('m/Y'); ?></p>
+                        </div>
+                      <?php endif;?>
                         <div class="media-body">
                           <?php the_content(); ?>
                       </div>
