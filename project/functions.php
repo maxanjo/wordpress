@@ -10,6 +10,7 @@ add_theme_support('post-thumbnails');
 register_nav_menu('primary', 'Primary menu');
 register_nav_menu('footer', 'Fotter menu');
 add_theme_support('html5',array('search-form'));
+add_filter( 'document_title_separator', function(){ return ' « '; } );
 
 include(get_template_directory() . '/custom/widgets.php');
 
