@@ -11,7 +11,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><?php bloginfo('name'); ?></title>
+    <title><?php 
+    if(is_home() && is_front_page())
+        echo bloginfo('description'); 
+    else
+        echo wp_get_document_title();
+     ?></title>
     <!--Favicon-->
     <link rel="shortcut icon" href="<?php print $favicon_picture ?>" type="image/x-icon">
     <meta charset="UTF-8">
