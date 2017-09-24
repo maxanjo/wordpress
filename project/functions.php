@@ -11,6 +11,8 @@ register_nav_menu('primary', 'Primary menu');
 register_nav_menu('footer', 'Fotter menu');
 add_theme_support('html5',array('search-form'));
 
+include(get_template_directory() . '/custom/widgets.php');
+
 // Load up our awesome theme options
 require  get_template_directory() . '/inc/function-admin.php';
 require  get_template_directory() . '/inc/enqueue.php';
