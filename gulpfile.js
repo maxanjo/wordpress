@@ -30,10 +30,10 @@ gulp.task('sftp-full', function () {
     return gulp.src(['./**', '!./node_modules/**', '!./git/**', '!./gulp.config.js', '!./gulpfile.js', '!./notify.png', '!./package.json'])
 
         .pipe(sftp({
-            host: '',
-            user: '',
-            pass: '',
-            remotePath: '/home/a0130638/domains/webove.ru/public_html/'
+            host: 'hostname',
+            user: 'username',
+            pass: 'yourpassword',
+            remotePath: 'remotepath'
         }));
 });
 
@@ -41,10 +41,31 @@ gulp.task('sftp-theme', function () {
     return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/sass/**'])
 
         .pipe(sftp({
-            host: '',
-            user: '',
-            pass: '',
-            remotePath: '/home/a0130638/domains/webove.ru/public_html/wp-content/themes/project/'
+            host: 'hostname',
+            user: 'username',
+            pass: 'yourpassword',
+            remotePath: '/remotepaththeme'
+        }));
+});
+gulp.task('sftp-php', function () {
+    return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/inc/js/libs/**','!./wp-content/themes/project/css/**','!./wp-content/themes/project/scripts/**'])
+
+        .pipe(sftp({
+            host: 'hostname',
+            user: 'username',
+            pass: 'yourpassword',
+            remotePath: '/remotepaththeme'
+        }));
+});
+
+gulp.task('sftp-css', function () {
+    return gulp.src(['./wp-content/themes/project/css/**', './wp-content/themes/project/scripts/**'])
+
+        .pipe(sftp({
+            host: 'hostname',
+            user: 'username',
+            pass: 'yourpassword',
+            remotePath: '/remotepaththeme'
         }));
 });
 
@@ -90,13 +111,3 @@ gulp.task('watch', function () {
 });
 
 gulp.task('default', ['browser-sync', 'watch']);
-
-// Builder
-gulp.task('build', function () {
-    return gulp.src('./wp-content/themes/project/*.php')
-        .pipe(useref())
-        .pipe(gulpif('*.js', uglify()))
-        .pipe(gulpif('*.css', minifyCss()))
-        .pipe(useref())
-        .pipe(gulp.dest('./wp-content/themes/project/'));
-})
