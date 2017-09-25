@@ -228,6 +228,10 @@ $(window).on('load', function(){
   $('#loader').delay(2000).fadeOut('slow');
  
 });
+  
+$('.single-page a.permalink').click(function(e){
+ return false;
+})
 
 
 // Кроссбраузерность
