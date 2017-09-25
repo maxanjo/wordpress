@@ -50,7 +50,7 @@ gulp.task('sftp-theme', function () {
 });
 
 gulp.task('sftp-php', function () {
-    return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/inc/js/libs/**','!./wp-content/themes/project/css/**','!./wp-content/themes/project/scripts/**'])
+    return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/inc/js/libs/**'])
 
         .pipe(sftp({
             host: 'yourhost',
