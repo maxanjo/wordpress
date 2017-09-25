@@ -6,19 +6,7 @@
             <main class="col-sm-8">
                 <!-- Article -->
                 <?php if (have_posts()) : while (have_posts()) : the_post();?>
-                    <article class="article">
-                      <div class="section-title text-center">
-                         <h2 class="heading"><?php the_title(); ?></h2>
-                    </div>
-                    <div class="media">
-                     <?php if ( has_post_thumbnail() ) :?>
-                      <?php endif;?>
-                        <div class="media-body">
-                          <?php the_content(); ?>
-                      </div>
-                      <a class="backblog button" href="<?php echo home_url(); ?>/blog"><?php _e('Back','webove'); ?></a> 
-                  </div><!-- Media-->
-              </article>
+                <?php get_template_part('template-parts/content') ?>
           <?php endwhile; else: ?>
       <?php endif; ?>
       <?php comments_template(); ?>
