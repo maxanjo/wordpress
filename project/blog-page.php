@@ -13,22 +13,7 @@ get_header(); ?>
             $blog_posts = new WP_Query( array( 'category_name' => 'blog' ) );
             $paged = ( get_query_var( 'paged' ) ) ? get_query_var( 'paged' ) : 1;
             if ( $blog_posts->have_posts() ) : while ( $blog_posts->have_posts() ) : $blog_posts->the_post();?>
-
-                <article class="article">
-                    <div class="section-title text-center">
-                        <h2 class="heading"><?php the_title(); ?></h2>
-                    </div>
-                <div class="media">
-                     <?php if ( has_post_thumbnail() ) :?>
-                    <div class="media-img"><?php the_post_thumbnail(array(360, 230)); ?>
-                      <?php endif;?>
-                        <div class="media-body">
-                            <?php the_content(); ?>
-                        </div><!-- media-body-area -->
-                        <a href="<?php the_permalink() ?>" class="permalink button"><?php _e('Learn more','webove');?></a>
-                    </div><!-- media-area -->
-                </article>
-
+                <?php get_template_part('template-parts/content') ?>
             <?php
                 endwhile; else: endif;?>
            <!-- Paginaton -->
