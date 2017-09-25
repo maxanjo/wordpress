@@ -16,10 +16,10 @@
     <div class="media-body">
       <?php the_content(); ?>
     </div>
-    <?php if(is_single()) :?>
+  </div><!-- Media-->
+      <?php if(is_single()) :?>
       <a class="backblog button" href="<?php echo home_url(); ?>/blog"><?php _e('Back','webove'); ?></a> 
     <?php else :?>
       <a href="<?php the_permalink() ?>" class="permalink button"><?php _e('Learn more','webove');?></a>
     <?php endif; ?>
-  </div><!-- Media-->
 </article>
