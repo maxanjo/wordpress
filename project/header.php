@@ -13,7 +13,7 @@
   <head>
     <title><?php 
     if(is_home() && is_front_page())
-        echo bloginfo('title'); 
+        echo bloginfo('name'); 
     else
         echo wp_get_document_title();
      ?></title>
@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php if ( !(is_single()) ) {?>
-    <meta name="description" content="<?php echo bloginfo('name') ?>" />
+    <meta name="description" content="<?php echo bloginfo('description') ?>" />
     <?php };
      ?>
     ?>" />
