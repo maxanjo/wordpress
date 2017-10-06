@@ -54,7 +54,7 @@
     <header>
     <menu id="menu" class="default">
         <div class="container">
-        <a href="/"><div class="logo"><img src="<?php print $logo_picture ?>" alt="Home"></div></a>
+        <a href="/"><div class="logo"><img src="<?php print $logo_picture ?>" alt="<?php echo bloginfo('name') ?>"></div></a>
         <div class="bar-mobile">
             <span class="top"></span>
             <span class="middle"></span>
