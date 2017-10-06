@@ -21,11 +21,10 @@
     <link rel="shortcut icon" href="<?php print $favicon_picture ?>" type="image/x-icon">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="<?php if ( is_single() ) {
-        single_post_title('', true); 
-    } else {
-        bloginfo('name'); echo " - "; bloginfo('description');
-    }
+    <?php if ( !(is_single()) ) {?>
+    <meta name="description" content="<?php echo bloginfo('name') ?>" />
+    <?php };
+     ?>
     ?>" />
     <!--Styles-->
     <style>
