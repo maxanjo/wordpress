@@ -132,10 +132,11 @@ main#main
 
 .wb_search
   width: $sidebarWidth
+  position: relative
   .text
-    width: calc(100% - 30px)
+    width: 100%
     border: 1px solid #cfd9db
-    padding: 4px 0px 4px 10px
+    padding: 4px 40px 4px 10px
     float: left
   ::-webkit-input-placeholder
     font-family: $oSR
@@ -148,6 +149,9 @@ main#main
     background: $main
     outline: none
     border: none
+    +absolute
+    right: 0
+    top: 0
   .icon-search
     height: 16px
     width: 16px
