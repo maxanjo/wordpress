@@ -7,6 +7,7 @@ $vk_handler = esc_attr( get_option('web_vk_handler'));
 $logo_footer = esc_attr( get_option( 'web_logo_footer'));
 $copyright = get_option('web_copyright');
 ?>
+ </div>
 <footer>
     <div class="container">
         <?php wp_nav_menu(array(
