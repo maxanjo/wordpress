@@ -51,6 +51,7 @@
     </style>
   </head>
   <body>
+    <div class="content-wrapper">
     <header>
     <menu id="menu" class="default">
         <div class="container">
