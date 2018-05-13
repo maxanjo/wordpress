@@ -39,9 +39,8 @@ $options = array(
 
 $additionals = array(
 		array(
-				'title'=> 'field',
-				'id'=>'web_field',
-				'type' => 'text'
+				'title'=> 'Main color',
+				'id'=>'web_color',
+				'type' => 'text',
 			),
 		);
-
