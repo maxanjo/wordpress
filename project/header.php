@@ -7,6 +7,7 @@
  $instagram_handler = esc_attr( get_option('web_instagram_handler'));
  $vk_handler = esc_attr( get_option('web_vk_handler'));
  $logo_text = get_option( 'web_logo_text');
+ $main_color = get_option( 'web_color');
 ?>
 <!DOCTYPE html>
 <html>
