@@ -77,3 +77,16 @@ input[type="text"]{
 .web-favicon{
 	height: 16px;
 }
+
+/*
+          ColorPicker
+======================
+*/
+.palette-color-picker-bubble.double .swatch{
+	width: 15.30%!important;
+}
+#web_color{
+	position: relative;
+	bottom: 10px;
+}
+
