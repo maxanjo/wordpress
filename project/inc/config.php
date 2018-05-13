@@ -39,7 +39,7 @@ $options = array(
 
 $additionals = array(
 		array(
-				'title'=> 'Main color',
+				'title'=> __('Main color', 'webove'),
 				'id'=>'web_color',
 				'type' => 'text',
 			),
