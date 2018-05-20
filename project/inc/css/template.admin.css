@@ -120,6 +120,14 @@
 #wpbody .web-favicon{
 	height: 16px;
 }
+#wpbody  .submit{
+	float: left;
+}
+#wpbody .default-button{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
 
 /*
           ColorPicker

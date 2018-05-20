@@ -3,7 +3,7 @@ require( get_template_directory() . '/inc/general.php');
 $config_typography =array(
 		array(
 			'title' => __('Font Body settings','webove'),
-			'desc'=>__('Choose a font family, a size and a color','webove'),
+			'desc'=>__('Select a font family, a size and a color','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
@@ -35,7 +35,7 @@ $config_typography =array(
 		),
 		array(
 			'title' => __('Heading h1 settings','webove'),
-			'desc'=>__('Choose h1 heading family, size and color','webove'),
+			'desc'=>__('Select h1 heading family, size and color','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
@@ -58,7 +58,7 @@ $config_typography =array(
 		),
 		array(
 			'title' => __('Heading h3 settings','webove'),
-			'desc'=>__('Choose h3 heading family, size and color','webove'),
+			'desc'=>__('Select h3 heading family, size and color','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
@@ -81,7 +81,7 @@ $config_typography =array(
 		),
 		array(
 			'title' => __('Heading h5 settings','webove'),
-			'desc'=>__('Choose h5 heading family, size and color','webove'),
+			'desc'=>__('Select h5 heading family, size and color','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',

@@ -1,6 +1,16 @@
 <?php 
 require_once( get_template_directory() . '/inc/config.php');
+require( get_template_directory() . '/inc/init.php');
 ?>
+<input type="hidden" class="default-color" value="<?php echo $default_color ?>">
+<input type="hidden" class="default-second-color" value="<?php echo $default_secondary_color ?>">
+<input type="hidden" class="default-button-family" value="<?php echo $default_buttons_family ?>">
+<input type="hidden" class="default-button-size" value="<?php echo $default_buttons_size ?>">
+<input type="hidden" class="default-button-color" value="<?php echo $default_buttons_color ?>">
+<input type="hidden" class="default-background-color" value="<?php echo $default_background_color ?>">
+<input type="hidden" class="default-background-position" value="<?php echo $default_background_position ?>">
+<input type="hidden" class="default-background-repeat" value="<?php echo $default_background_repeat ?>">
+
 <h2><?php _e('General Options', 'webove') ?></h2>
 <p class="header-desc"><?php _e('Customize Your General Information', 'webove')?></p>
 <div class="wrap">
@@ -33,8 +43,11 @@ require_once( get_template_directory() . '/inc/config.php');
     ?>
     " />
 
-    <?php submit_button(); 
-    ?>  
+    <?php $other_attributes = array( 'id' => 'form-submit' );
+
+submit_button( 'Save Settings', 'primary', 'save-settings', true, $other_attributes );
+    ?>
+    <input type="button" value="<?php _e('Default Settings','webove') ?>" class="button button-secondary default-button">
 
 </form>
 </div>

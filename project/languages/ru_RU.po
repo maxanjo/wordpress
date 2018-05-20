@@ -139,7 +139,7 @@ msgid "Main color"
 msgstr "Главный цвет"
 
 #: inc/options/config-options.php:5
-msgid "Choose a main color of your theme"
+msgid "Select a main color of your theme"
 msgstr "Выберите главный цвет вашей темы"
 
 #: inc/options/config-options.php:14
@@ -147,7 +147,7 @@ msgid "Secondary color"
 msgstr "Второстепенный цвет"
 
 #: inc/options/config-options.php:15
-msgid "Choose a secondary color of your theme"
+msgid "Select a secondary color of your theme"
 msgstr "Выберите второстепенный цвет вашей темы"
 
 #: inc/options/config-options.php:24
@@ -155,7 +155,7 @@ msgid "Buttons settings"
 msgstr "Настройки кнопок"
 
 #: inc/options/config-options.php:25
-msgid "Choose style of your buttons"
+msgid "Select style of your buttons"
 msgstr "Выберите стиль кнопок"
 
 #: inc/options/config-options.php:29 inc/options/config-typography.php:11
@@ -175,7 +175,7 @@ msgid "Background"
 msgstr "Фон"
 
 #: inc/options/config-options.php:48
-msgid "Choose a background"
+msgid "Select a background"
 msgstr "Выберите фон"
 
 #: inc/options/config-options.php:52
@@ -183,7 +183,7 @@ msgid "Background Image"
 msgstr "Фоновое изображение"
 
 #: inc/options/config-options.php:54
-msgid "Choose Backgroung"
+msgid "Select Backgroung"
 msgstr "Выберите Фон"
 
 #: inc/options/config-options.php:58
@@ -223,7 +223,7 @@ msgid "Font Body settings"
 msgstr "Основной шрифт"
 
 #: inc/options/config-typography.php:6
-msgid "Choose a font family, a size and a color"
+msgid "Select a font family, a size and a color"
 msgstr "Выберите шрифт, размер и цвет"
 
 #: inc/options/config-typography.php:28
@@ -235,7 +235,7 @@ msgid "Heading h1 settings"
 msgstr "Заголовки h1 настройки"
 
 #: inc/options/config-typography.php:38
-msgid "Choose h1 heading family, size and color"
+msgid "Select h1 heading family, size and color"
 msgstr "Выберите шрифт, размер и цвет"
 
 #: inc/options/config-typography.php:43
@@ -255,7 +255,7 @@ msgid "Heading h3 settings"
 msgstr "Заголовки h3 настройки"
 
 #: inc/options/config-typography.php:61
-msgid "Choose h3 heading family, size and color"
+msgid "Select h3 heading family, size and color"
 msgstr "Выберите шрифт, размер и цвет"
 
 #: inc/options/config-typography.php:66
@@ -275,7 +275,7 @@ msgid "Heading h5 settings"
 msgstr "Загловки h5 настройки"
 
 #: inc/options/config-typography.php:84
-msgid "Choose h5 heading family, size and color"
+msgid "Select h5 heading family, size and color"
 msgstr "Выберите шрифт, размер и цвет"
 
 #: inc/options/config-typography.php:89

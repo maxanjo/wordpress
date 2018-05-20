@@ -22,6 +22,7 @@ $default_heading = esc_attr( get_option('web_default_heading'));
 $default_body_font = esc_attr( get_option('web_default_body_font'));
 $preload_show = esc_attr( get_option('web_preload_show'));
 $preload = esc_attr( get_option('web_preload'));
+$buttons_family = esc_attr( get_option('web_buttons_family'));
 $preload_transparent = strpos($preload, "transparent");
 $footer_logo = esc_attr( get_option('web_footer_logo'));
 $bg_image = esc_attr( get_option('web_bg_image'));
@@ -32,4 +33,5 @@ $bg_position_string = esc_attr( get_option('web_bg_position'));
 $bg_color = esc_attr( get_option('web_bg_color'));
 $bg_repeat = explode(', ', $bg_repeat_string);
 $bg_position = explode(', ', $bg_position_string);
+
 ?>

@@ -2,7 +2,7 @@
 $config_options = array(
 		array(
 			'title' => __('Main color','webove'),
-			'desc' => __('Choose a main color of your theme', 'webove'),
+			'desc' => __('Select a main color of your theme', 'webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_color',
@@ -12,7 +12,7 @@ $config_options = array(
 			),
 		array(
 			'title' => __('Secondary color','webove'),
-			'desc' => __('Choose a secondary color of your theme', 'webove'),
+			'desc' => __('Select a secondary color of your theme', 'webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_color',
@@ -22,7 +22,7 @@ $config_options = array(
 			),
 		array(
 			'title' => __('Buttons settings','webove'),
-			'desc' => __('Choose style of your buttons', 'webove'),
+			'desc' => __('Select style of your buttons', 'webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
@@ -45,13 +45,13 @@ $config_options = array(
 			),
 		array(
 			'title' => __('Background','webove'),
-			'desc' => __('Choose a background', 'webove'),
+			'desc' => __('Select a background', 'webove'),
 			'settings'=>array(
 					array(
 					'type'=>'web_file',
 					'label' => __('Background Image','webove'),
 					'id' => 'web_bg_image',
-					'button' => __('Choose Backgroung','webove')
+					'button' => __('Select Backgroung','webove')
 					),
 					array(
 						'type'=> 'web_select',

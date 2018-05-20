@@ -5,7 +5,7 @@
       ADMIN PAGE
 ===================
 */
-define('SITE_NAME', 'Webove');
+include( get_template_directory() . '/inc/init.php');
 
 function web_add_admin_page(){
 

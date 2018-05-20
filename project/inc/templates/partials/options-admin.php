@@ -14,12 +14,11 @@ $option_data = get_option(''.$settings['id'].'');
                         echo '<td>';
                         echo '  <div class="form-group">
                         <label for="">'.$settings['label'].'</label>
-
                         <div class="dropdown parent">
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">' . $array[1] .  '  
                         <span class="caret"></span>
                         </button>
-                        <ul id="'.$settings['id'].'" class="dropdown-menu" data-web-attr role="menu" aria-labelledby="dropdownMenu1">
+                        <ul class="'.$settings['id'].' dropdown-menu" data-web-attr role="menu" aria-labelledby="dropdownMenu1">
                         ';
                         foreach($settings['options'] as $key => $value){
                             echo '<li role="presentation"><a role="menuitem" data-value="'.$key.', '.$value.'" tabindex="-1" href="#">'.$value.'</a></li>';
@@ -38,7 +37,7 @@ $option_data = get_option(''.$settings['id'].'');
                         <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">' . $array[1] .  '  
                         <span class="caret"></span>
                         </button>
-                        <ul id="'.$settings['id'].'" class="dropdown-menu dropdown-with-search" data-web-attr role="menu" aria-labelledby="dropdownMenu1">
+                        <ul class="'.$settings['id'].' dropdown-menu dropdown-with-search" data-web-attr role="menu" aria-labelledby="dropdownMenu1">
                         ';
                         foreach($settings['options'] as $key => $value){
                             echo '<li role="presentation"><a role="menuitem" data-value="'.$key.', '.$value.'" tabindex="-1" href="#">'.$value.'</a></li>';
