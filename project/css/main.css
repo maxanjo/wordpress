@@ -249,3 +249,6 @@ main#main {
 .bar-mobile span {
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out; }
+
+p {
+  font-family: "OpenSansRegular"; }

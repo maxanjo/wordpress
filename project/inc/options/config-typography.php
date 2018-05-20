@@ -85,7 +85,7 @@ $config_typography =array(
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
-					'id' => 'web_heading_h5_amily',
+					'id' => 'web_heading_h5_family',
 					'label'=> __('Heading h5 Family','webove'),
 					'options'=> $googleFonts
 				),

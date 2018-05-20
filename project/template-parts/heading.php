@@ -23,7 +23,7 @@
     <!--Styles-->
     <style>
     <?php 
-    if(isset($loader) and $loader !==''){
+    if(isset($preload) and $preload_show =='1' and $preload_transparent==false ){
         echo '#loader{min-height:50px;background: #fff url('.$preload.') center center no-repeat;height:100%;width:100%;position:fixed;top:0;left:0;z-index: 2000; }';
 };
       if(isset($bg_color) and $bg_color !==''){
@@ -45,11 +45,11 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/main.css">
     <?php 
-        $google_fonts = ($default_font_body !== '1' and isset($font_family_string) and $font_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$font_family[0]."' rel='stylesheet'>" : '';
+        $google_fonts = ($default_font_body !== '1' and isset($font_family_string) and $font_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$font_family[1]."' rel='stylesheet'>" : '';
         echo $google_fonts;
-        $google_fonts_heading1 = ($default_font_heading !== '1' and isset($heading_h1_family_string) and $heading_h1_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$heading_h1_family[0]."' rel='stylesheet'>" : '';
-         $google_fonts_heading2 = ($default_font_heading !== '1' and isset($heading_h2_family_string) and $heading_h2_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$heading_h2_family[0]."' rel='stylesheet'>" : '';
-         $google_fonts_heading3 = ($default_font_heading !== '1' and isset($heading_h3_family_string) and $heading_h3_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$heading_h3_family[0]."' rel='stylesheet'>" : '';
+        $google_fonts_heading1 = ($default_font_heading !== '1' and isset($heading_h1_family_string) and $heading_h1_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$heading_h1_family[1]."' rel='stylesheet'>" : '';
+         $google_fonts_heading2 = ($default_font_heading !== '1' and isset($heading_h5_family_string) and $heading_h5_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$heading_h5_family[1]."' rel='stylesheet'>" : '';
+         $google_fonts_heading3 = ($default_font_heading !== '1' and isset($heading_h3_family_string) and $heading_h3_family_string !=='') ? "<link href='https://fonts.googleapis.com/css?family=".$heading_h3_family[1]."' rel='stylesheet'>" : '';
         echo $google_fonts_heading1;
         echo $google_fonts_heading2;
         echo $google_fonts_heading3;
@@ -60,43 +60,43 @@
      <?php
      if($default_body_font !== '1'){
       if(isset($font_family_string) and $font_family_string !=='' ){
-        echo 'body{font-family: "'.$font_family[0].'"}';
+        echo 'body{font-family: "'.$font_family[1].'"}';
       }
       if(isset($font_color) and $font_color !=='' ){
         echo 'body{color:'.$font_color.'}';
       }
       if(isset($font_size) and $font_size !=='' ){
-        echo 'body{font-size:'.$font_size.'}';
+        echo 'body{font-size:'.$font_size.'px}';
       }
      }
 
     if(@$default_heading !== '1'){
       if(isset($heading_h1_family_string) and $heading_h1_family_string !=='' ){
-        echo 'h1{font-family: "'.$heading_h1_family[0].'"}';
+        echo 'h1{font-family: "'.$heading_h1_family[1].'"}';
       }
        if(isset($heading_h1_color) and $heading_h1_color !==''  ){
         echo 'h1{color: '.$heading_h1_color.'}';
       }
        if(isset($heading_h1_size) and $heading_h1_size !==''){
-        echo 'h1{font-size: '.$heading_h1_size.'}';
+        echo 'h1{font-size: '.$heading_h1_size.'px}';
       }
         if(isset($heading_h3_family_string) and $heading_h3_family_string !==''){
-        echo 'h3{font-family: "'.$heading_h3_family[0].'"}';
+        echo 'h3{font-family: "'.$heading_h3_family[1].'"}';
       }
        if(isset($heading_h3_color) and $heading_h3_color !==''){
         echo 'h3{color: '.$heading_h3_color.'}';
       }
        if(isset($heading_h3_size) and $heading_h3_size !==''){
-        echo 'h3{font-size: '.$heading_h3_size.'}';
+        echo 'h3{font-size: '.$heading_h3_size.'px}';
       }
         if(isset($heading_h5_family_string) and $heading_h5_family_string !=='' ){
-        echo 'h5{font-family: "'.$heading_h5_family[0].'"}';
+        echo 'h5{font-family: "'.$heading_h5_family[1].'"}';
       }
        if(isset($heading_h5_color) and $heading_h5_color !==''  ){
         echo 'h5{color: '.$heading_h5_color.'}';
       }
        if(isset($heading_h5_size) and $heading_h5_size !==''){
-        echo 'h5{font-size: '.$heading_h5_size.'}';
+        echo 'h5{font-size: '.$heading_h5_size.'px}';
       }
     };
 

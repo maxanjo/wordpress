@@ -22,6 +22,7 @@ $default_heading = esc_attr( get_option('web_default_heading'));
 $default_body_font = esc_attr( get_option('web_default_body_font'));
 $preload_show = esc_attr( get_option('web_preload_show'));
 $preload = esc_attr( get_option('web_preload'));
+$preload_transparent = strpos($preload, "transparent");
 $footer_logo = esc_attr( get_option('web_footer_logo'));
 $bg_image = esc_attr( get_option('web_bg_image'));
 $image_transparent = strpos($bg_image, "transparent");
