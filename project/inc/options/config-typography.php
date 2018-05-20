@@ -3,29 +3,29 @@ require( get_template_directory() . '/inc/general.php');
 $config_typography =array(
 		array(
 			'title' => __('Font Body settings','webove'),
-			'desc'=>__('Choose font family, size and color','webove'),
+			'desc'=>__('Choose a font family, a size and a color','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
 					'id' => 'web_font_family',
-					'label'=> __('Body Family','webove'),
+					'label'=> __('Font Family','webove'),
 					'options'=> $googleFonts
 				),
 				array(
 					'type'=>'web_number',
 					'id' => 'web_font_size',
-					'label'=> __('Body Size','webove'),
+					'label'=> __('Font Size','webove'),
 					'placeholder' => '14px'
 				),
 				array(
 					'type'=>'web_color',
 					'id' => 'web_font_color',
-					'label'=> __('Body Color','webove')
+					'label'=> __('Font Color','webove')
 				)
 			)
 		),
 		array(
-			'title' => __('Default Body Font','webove'),
+			'title' => __('Enable default body font','webove'),
 			'settings' => array(
 				array(
 					'type'=>'web_checkbox',
@@ -103,7 +103,7 @@ $config_typography =array(
 			)
 		),
 		array(
-			'title' => __('Default Heading Font','webove'),
+			'title' => __('Enable default heading fonts','webove'),
 			'settings' => array(
 				array(
 					'type'=>'web_checkbox',

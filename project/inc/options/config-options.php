@@ -2,7 +2,7 @@
 $config_options = array(
 		array(
 			'title' => __('Main color','webove'),
-			'desc' => __('Choose main color of your theme ', 'webove'),
+			'desc' => __('Choose a main color of your theme', 'webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_color',
@@ -12,7 +12,7 @@ $config_options = array(
 			),
 		array(
 			'title' => __('Secondary color','webove'),
-			'desc' => __('Choose secondary color of your theme ', 'webove'),
+			'desc' => __('Choose a secondary color of your theme', 'webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_color',
@@ -22,7 +22,7 @@ $config_options = array(
 			),
 		array(
 			'title' => __('Buttons settings','webove'),
-			'desc' => __('Choose style of your buttons ', 'webove'),
+			'desc' => __('Choose style of your buttons', 'webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_search_select',
@@ -45,7 +45,7 @@ $config_options = array(
 			),
 		array(
 			'title' => __('Background','webove'),
-			'desc' => __('Choose background ', 'webove'),
+			'desc' => __('Choose a background', 'webove'),
 			'settings'=>array(
 					array(
 					'type'=>'web_file',
@@ -57,7 +57,6 @@ $config_options = array(
 						'type'=> 'web_select',
 						'label'=> __('Background Position','webove'),
 						'id' => 'web_bg_position',
-						
 						'options'=>array(
 							'left top' => 'Left Top',
 							'left center'=>'Left Center',
@@ -89,7 +88,6 @@ $config_options = array(
 				array(
 						'type'=> 'web_color',
 						'id' => 'web_bg_color',
-						'label'=> __('Background color','webove'),
 					)
 				)
 			)

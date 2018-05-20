@@ -33,7 +33,7 @@ $config_generals = array(
 			)
 		),
 		array(
-			'title' => __('Show Preload','webove'),
+			'title' => __('Show a loader','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_checkbox',
@@ -42,13 +42,13 @@ $config_generals = array(
 			)
 		),
 		array(
-			'title' => __('Gif Preload','webove'),
+			'title' => __('loading image','webove'),
 			'settings'=>array(
 				array(
 					'type'=>'web_file',
 					'id' => 'web_preload',
-					'button'=> __('Upload a Preloader','webove'),
-					'desc'=>__('Load a gif preloader','webove')
+					'button'=> __('Upload an image','webove'),
+					'desc'=>__('Gif, jpg, png','webove')
 				)
 			)
 		),
