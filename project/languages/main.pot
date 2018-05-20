@@ -1,7 +1,8 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Webove Framework 1.0\n"
-"POT-Creation-Date: 2017-09-20 22:33+0400\n"
+"POT-Creation-Date: 2018-05-18 12:15+0400\n"
 "PO-Revision-Date: 2017-09-20 22:33+0400\n"
 "Last-Translator: \n"
 "Language-Team: Maxim Sokolov, maxanjo512@gmail.com\n"
@@ -16,42 +17,259 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: inc/function-admin.php:56
-msgid "General Options"
+#: 404.php:4
+msgid ""
+"Sorry, but the page you are looking for has not found. Try checking the "
+"URL for errors, then hit the refresh<br /> button on your browser"
 msgstr ""
 
-#: inc/function-admin.php:70
-msgid "Logo"
-msgstr ""
-
-#: inc/function-admin.php:72
-msgid "Footer Logo"
-msgstr ""
-
-#: inc/function-admin.php:74
-msgid "Favicon"
-msgstr ""
-
-#: inc/function-admin.php:76
-msgid "Copyright text"
-msgstr ""
-
-#: inc/function-admin.php:81
-msgid "Customize Your General Information"
-msgstr ""
-
-#: inc/function-admin.php:128
-msgid "Upload Favicon"
-msgstr ""
-
-#: page.php:56
+#: blog-page.php:30
 msgid "Prev"
 msgstr ""
 
-#: page.php:57
+#: blog-page.php:31
 msgid "Next"
 msgstr ""
 
-#: single.php:9
-msgid "&lt; Back to the Blog"
+#: inc/config.php:5
+msgid "Twitter"
+msgstr ""
+
+#: inc/config.php:10
+msgid "Youtube"
+msgstr ""
+
+#: inc/config.php:15
+msgid "facebook"
+msgstr ""
+
+#: inc/config.php:20
+msgid "google"
+msgstr ""
+
+#: inc/config.php:25
+msgid "vk"
+msgstr ""
+
+#: inc/config.php:30
+msgid "instagram"
+msgstr ""
+
+#: inc/config.php:35
+msgid "odnoklassniki"
+msgstr ""
+
+#: inc/config.php:74 inc/function-admin.php:81
+msgid "Logo"
+msgstr ""
+
+#: inc/config.php:79 inc/function-admin.php:113
+msgid "Upload a Logo"
+msgstr ""
+
+#: inc/config.php:84 inc/function-admin.php:83
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/config.php:89
+msgid "Upload a Footer logo"
+msgstr ""
+
+#: inc/config.php:90 inc/function-admin.php:128
+msgid "If your theme support footer logo, please upload it here"
+msgstr ""
+
+#: inc/config.php:95 inc/function-admin.php:85
+msgid "Favicon"
+msgstr ""
+
+#: inc/config.php:100 inc/function-admin.php:139
+msgid "Upload a Favicon"
+msgstr ""
+
+#: inc/config.php:101
+msgid "Load a favicon: 16x16, 32x32, or 48x48"
+msgstr ""
+
+#: inc/config.php:106 inc/function-admin.php:87
+msgid "Copyright text"
+msgstr ""
+
+#: inc/function-admin.php:19
+msgid "General options"
+msgstr ""
+
+#: inc/function-admin.php:19
+msgid "General"
+msgstr ""
+
+#: inc/function-admin.php:20 inc/templates/template-social.php:4
+msgid "Social options"
+msgstr ""
+
+#: inc/function-admin.php:20
+msgid "Social"
+msgstr ""
+
+#: inc/function-admin.php:21 inc/templates/template-custom-css.php:1
+msgid "Custom css"
+msgstr ""
+
+#: inc/function-admin.php:21
+msgid "Custom Css"
+msgstr ""
+
+#: inc/function-admin.php:22 inc/function-admin.php:33
+#: inc/function-admin.php:52 inc/templates/template-options.php:4
+msgid "Theme Options"
+msgstr ""
+
+#: inc/function-admin.php:23 inc/templates/template-typography.php:5
+msgid "Typography"
+msgstr ""
+
+#: inc/function-admin.php:24
+msgid "Test"
+msgstr ""
+
+#: inc/function-admin.php:67 inc/templates/template-test.php:4
+msgid "General Options"
+msgstr ""
+
+#: inc/function-admin.php:68
+msgid "Css Options"
+msgstr ""
+
+#: inc/function-admin.php:79
+msgid "insert your Custom Css"
+msgstr ""
+
+#: inc/function-admin.php:92 inc/templates/template-test.php:5
+msgid "Customize Your General Information"
+msgstr ""
+
+#: inc/function-admin.php:95
+msgid "Write your own styles in the form below"
+msgstr ""
+
+#: inc/function-admin.php:114
+msgid "Remove Logo"
+msgstr ""
+
+#: inc/function-admin.php:125
+msgid "Upload a Footer Logo"
+msgstr ""
+
+#: inc/function-admin.php:126
+msgid "Remove Footer Logo"
+msgstr ""
+
+#: inc/function-admin.php:140
+msgid "Remove Favicon"
+msgstr ""
+
+#: inc/function-admin.php:142
+msgid "Load a favicon icon: 16x16, 32x32, or 48x48"
+msgstr ""
+
+#: inc/templates/partials/options-admin.php:85
+msgid "Remove"
+msgstr ""
+
+#: inc/templates/partials/typography-h1.php:7
+msgid "heading H1"
+msgstr ""
+
+#: inc/templates/partials/typography-h1.php:10
+#: inc/templates/partials/typography-h2.php:8
+#: inc/templates/partials/typography-h3.php:10
+#: inc/templates/partials/typography-h4.php:10
+#: inc/templates/template-typography.php:17
+msgid "Font Family"
+msgstr ""
+
+#: inc/templates/partials/typography-h1.php:39
+#: inc/templates/partials/typography-h2.php:37
+#: inc/templates/partials/typography-h3.php:39
+#: inc/templates/partials/typography-h4.php:39
+#: inc/templates/template-typography.php:42
+msgid "Font Size"
+msgstr ""
+
+#: inc/templates/partials/typography-h1.php:50
+#: inc/templates/partials/typography-h2.php:48
+#: inc/templates/partials/typography-h3.php:50
+#: inc/templates/partials/typography-h4.php:50
+#: inc/templates/template-typography.php:53
+msgid "Font style"
+msgstr ""
+
+#: inc/templates/partials/typography-h1.php:70
+#: inc/templates/partials/typography-h2.php:68
+#: inc/templates/partials/typography-h3.php:70
+#: inc/templates/partials/typography-h4.php:70
+#: inc/templates/template-typography.php:73
+msgid "Font color"
+msgstr ""
+
+#: inc/templates/partials/typography-h2.php:5
+msgid "heading H2"
+msgstr ""
+
+#: inc/templates/partials/typography-h3.php:7
+msgid "heading H3"
+msgstr ""
+
+#: inc/templates/partials/typography-h4.php:7
+msgid "heading H4"
+msgstr ""
+
+#: inc/templates/template-general.php:8
+msgid "Save Changes"
+msgstr ""
+
+#: inc/templates/template-typography.php:14
+msgid "Body"
+msgstr ""
+
+#: inc/templates/template-typography.php:14
+msgid "Select a body font, a size, a style and a color"
+msgstr ""
+
+#: inc/templates/template-typography.php:85
+msgid "default body fonts"
+msgstr ""
+
+#: inc/templates/template-typography.php:101
+msgid "default heading fonts"
+msgstr ""
+
+#: search.php:17
+msgid "Previous page"
+msgstr ""
+
+#: search.php:18
+msgid "Next page"
+msgstr ""
+
+#: search.php:24
+msgid "Nothing found"
+msgstr ""
+
+#: search.php:25
+msgid ""
+"Sorry, but nothing matched your search criteria. Please type again with "
+"some different keywords"
+msgstr ""
+
+#: searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: template-parts/content.php:21
+msgid "Back"
+msgstr ""
+
+#: template-parts/content.php:23
+msgid "Learn more"
 msgstr ""

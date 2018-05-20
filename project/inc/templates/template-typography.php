@@ -9,10 +9,10 @@ require_once( get_template_directory() . '/inc/config.php');
         <table class="form-table">
             <tbody >
                 <?php 
-                foreach($admin_settings['generals'] as $general){
+                foreach($admin_settings['typographys'] as $typography){
                     echo '<tr>';
-                    echo '<th>'.$general['title'].'<p class="description">'.$general['desc'].'</p></th>';
-                    foreach($general['settings'] as $settings){
+                    echo '<th>'.$typography['title'].'<p class="description">'.$typography['desc'].'</p></th>';
+                    foreach($typography['settings'] as $settings){
                        require( get_template_directory() . '/inc/templates/partials/options-admin.php');
                    }
                }
@@ -25,8 +25,8 @@ require_once( get_template_directory() . '/inc/config.php');
        <input type="hidden" name="action" value="update" />
        <input type="hidden" name="page_options" value="
        <?php 
-       foreach($admin_settings['generals'] as $general){
-        foreach($general['settings'] as $settings){
+       foreach($admin_settings['typographys'] as $typography){
+        foreach($typography['settings'] as $settings){
             echo $settings['id'].', ';
         }
     }

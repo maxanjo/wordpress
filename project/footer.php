@@ -1,11 +1,5 @@
 <?php
-$twitter_handler = esc_attr( get_option('web_twitter_handler'));
-$facebook_handler = esc_attr( get_option('web_facebook_handler'));
-$google_handler = esc_attr( get_option('web_google_handler'));
-$instagram_handler = esc_attr( get_option('web_instagram_handler'));
-$vk_handler = esc_attr( get_option('web_vk_handler'));
-$logo_footer = esc_attr( get_option( 'web_logo_footer'));
-$copyright = get_option('web_copyright');
+include( get_template_directory() . '/template-parts/options.php');
 ?>
  </div>
 <footer>
@@ -45,5 +39,6 @@ $copyright = get_option('web_copyright');
     loadCss ("css/main.min.css");
 </script>
 <?php wp_footer() ?>
+
 </body>
 </html>

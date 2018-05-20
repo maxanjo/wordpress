@@ -225,7 +225,7 @@ $('#clock').countdown('2020/10/10', function(event) {
 // Loader
 $(window).on('load', function(){
 
-  $('#loader').delay(2000).fadeOut('slow');
+  $('#loader').delay(1000).fadeOut('slow');
  
 });
   
