@@ -1,1 +1,11 @@
-node_modules/
+# Ignore everything
+*
+
+# But not these files...
+!.bowerrc
+!.gitignore
+!gulp.config.js
+!gulpfile.js
+!notify.png
+!package.json
+!wp-content/themes/project
