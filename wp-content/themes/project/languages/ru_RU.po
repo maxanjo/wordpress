@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Webove Framework 1.0\n"
-"POT-Creation-Date: 2018-05-20 15:11+0400\n"
-"PO-Revision-Date: 2018-05-20 15:11+0400\n"
+"POT-Creation-Date: 2018-05-21 21:45+0400\n"
+"PO-Revision-Date: 2018-05-21 21:47+0400\n"
 "Last-Translator: \n"
 "Language-Team: Maxim Sokolov, maxanjo512@gmail.com\n"
 "Language: ru\n"
@@ -73,7 +73,7 @@ msgid "insert your Custom Css"
 msgstr "Поле для ввода пользовательских стилей"
 
 #: inc/function-admin.php:77 inc/templates/template-general.php:5
-#: inc/templates/template-options.php:5 inc/templates/template-social.php:5
+#: inc/templates/template-options.php:15 inc/templates/template-social.php:5
 #: inc/templates/template-typography.php:5
 msgid "Customize Your General Information"
 msgstr "Настройка общих параметров сайта"
@@ -124,7 +124,7 @@ msgstr "Анимация загрузки"
 
 #: inc/options/config-generals.php:50
 msgid "Upload an image"
-msgstr "Загрузить"
+msgstr "Выбрать"
 
 #: inc/options/config-generals.php:51
 msgid "Gif, jpg, png"
@@ -294,14 +294,20 @@ msgstr "Цвет"
 msgid "Enable default heading fonts"
 msgstr "Заголовки по умолчанию"
 
-#: inc/templates/partials/options-admin.php:85
+#: inc/templates/partials/options-admin.php:84
 msgid "Remove"
 msgstr "Удалить"
 
-#: inc/templates/template-general.php:4 inc/templates/template-options.php:4
+#: inc/templates/template-general.php:4 inc/templates/template-options.php:14
 #: inc/templates/template-social.php:4 inc/templates/template-typography.php:4
 msgid "General Options"
 msgstr "Основные настройки"
+
+#: inc/templates/template-options.php:50
+#, fuzzy
+#| msgid "Social options"
+msgid "Default Settings"
+msgstr "Настройка соцальных сетей"
 
 #: search.php:17
 msgid "Previous page"
@@ -374,8 +380,3 @@ msgstr "Читать"
 #, fuzzy
 #~ msgid "Customize Your Social Settings"
 #~ msgstr "Соц"
-
-#, fuzzy
-#~| msgid "Social options"
-#~ msgid "Social Settings"
-#~ msgstr "Настройка соцальных сетей"
