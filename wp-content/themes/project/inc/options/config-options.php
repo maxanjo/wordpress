@@ -10,16 +10,16 @@ $config_options = array(
 					)
 				)
 			),
-		// array(
-		// 	'title' => __('Secondary color','webove'),
-		// 	'desc' => __('Select a secondary color of your theme', 'webove'),
-		// 	'settings'=>array(
-		// 		array(
-		// 			'type'=>'web_color',
-		// 			'id' => 'web_second_color',
-		// 			)
-		// 		)
-		// 	),
+		array(
+			'title' => __('Secondary color','webove'),
+			'desc' => __('Select a secondary color of your theme', 'webove'),
+			'settings'=>array(
+				array(
+					'type'=>'web_color',
+					'id' => 'web_second_color',
+					)
+				)
+			),
 		array(
 			'title' => __('Buttons settings','webove'),
 			'desc' => __('Select style of your buttons', 'webove'),
@@ -43,45 +43,45 @@ $config_options = array(
 					)
 				)
 			),
-		// array(
-		// 	'title' => __('Background','webove'),
-		// 	'desc' => __('Select a background', 'webove'),
-		// 	'settings'=>array(
-		// 			array(
-		// 			'type'=>'web_file',
-		// 			'label' => __('Background Image','webove'),
-		// 			'id' => 'web_bg_image',
-		// 			'button' => __('Select Backgroung','webove')
-		// 			),
-		// 			array(
-		// 				'type'=> 'web_select',
-		// 				'label'=> __('Background Position','webove'),
-		// 				'id' => 'web_bg_position',
-		// 				'options'=>array(
-		// 					'left top' => 'Left Top',
-		// 					'left center'=>'Left Center',
-		// 					'left bottom'=>'left Bottom',
-		// 					'right top'=>'Right Top',
-		// 					'right center'=>'Right Center',
-		// 					'right bottom'=>'Right Botton',
-		// 					'center top'=>'Center Top',
-		// 					'center center'=>'Center Center',
-		// 					'center bottom'=>'Center Bottom'
-		// 					)
-		// 			),
-		// 			array(
-		// 				'type'=> 'web_select',
-		// 				'id' => 'web_bg_repeat',
-		// 				'label'=> __('Background Repeat','webove'),
-		// 				'options'=>array(
-		// 					'repeat' => 'Repeat',
-		// 					'repeat-x'=>'Repeat horizontally',
-		// 					'repeat-y'=>'Repeat vertically',
-		// 					'no-repeat'=>'No repeat'
-		// 					)
-		// 			)
-		// 		)
-		// 	),
+		array(
+			'title' => __('Background','webove'),
+			'desc' => __('Select a background', 'webove'),
+			'settings'=>array(
+					array(
+					'type'=>'web_file',
+					'label' => __('Background Image','webove'),
+					'id' => 'web_bg_image',
+					'button' => __('Select Backgroung','webove')
+					),
+					array(
+						'type'=> 'web_select',
+						'label'=> __('Background Position','webove'),
+						'id' => 'web_bg_position',
+						'options'=>array(
+							'left top' => 'Left Top',
+							'left center'=>'Left Center',
+							'left bottom'=>'left Bottom',
+							'right top'=>'Right Top',
+							'right center'=>'Right Center',
+							'right bottom'=>'Right Botton',
+							'center top'=>'Center Top',
+							'center center'=>'Center Center',
+							'center bottom'=>'Center Bottom'
+							)
+					),
+					array(
+						'type'=> 'web_select',
+						'id' => 'web_bg_repeat',
+						'label'=> __('Background Repeat','webove'),
+						'options'=>array(
+							'repeat' => 'Repeat',
+							'repeat-x'=>'Repeat horizontally',
+							'repeat-y'=>'Repeat vertically',
+							'no-repeat'=>'No repeat'
+							)
+					)
+				)
+			),
 		array(
 			'title' => __('Background Color','webove'),
 			'settings'=>array(
