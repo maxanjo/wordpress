@@ -1,0 +1,145 @@
+#wpbody{
+	background: #f9f9f9;
+	padding: 15px 30px;
+	width: 70%;
+	border: 1px solid #ccc;
+}
+#wpbody .button-danger{
+	background: #ea1010;
+	color: #fff;
+}
+.cke_1_top{
+	z-index: 1000;
+}
+#wpbody .copyright-text{
+	width: 400px;
+}
+.web-logo-footer, .web-logo{
+	background-image: url(../img/bg-transparent.png);
+}
+#wpbody tr{
+	border-bottom: 1px solid #ccc;
+}
+#wpbody .form-table td{
+	padding: 30px 10px;
+	width: 100px;
+}
+#wpbody tr:last-child{
+	border: none;
+}   
+#wpbody input[type=color]{
+	height: 35px;
+	cursor: pointer;
+}
+#wpbody .header-table.layout-2{
+	position: relative;
+	top: 25px;
+}
+#wpbody .header-table p.description{
+	font-weight: normal;
+}
+#wpbody p.description{
+	text-transform: none;
+}
+#wpbody td label{
+	text-transform: capitalize;
+}
+#wpbody .web_input_size{
+	height: 34px;
+}
+#wpbody .disabled{
+	pointer-events: none;
+	opacity: 0.5;
+}
+#footer-thankyou{
+	display: none;
+}
+#wpbody .form-table th{
+	text-transform: capitalize;
+	width: 42%;
+	padding-top: 30px;
+}
+#wpbody .form-table th p.description{
+	font-weight: 100;
+     margin-top: 15px;
+}
+#wpbody::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  text-transform: capitalize;
+}
+#wpbody::-moz-placeholder { /* Firefox 19+ */
+  text-transform: capitalize;
+}
+#wpbody:-ms-input-placeholder { /* IE 10+ */
+  text-transform: capitalize;
+}
+#wpbody:-moz-placeholder { /* Firefox 18- */
+  text-transform: capitalize;
+}
+
+#wpbody .web-preview{
+	padding: 5px;
+	background: #fff;
+	border: 1px solid #ccc;
+	margin-bottom: 15px;
+	width: 160px;
+}
+#wpbody p.header-desc{
+	font-size: 14px;
+}
+
+#wpbody .web-image-preview{
+	background: #f9f9f9;
+	width: 100%;
+	height: 100px;
+	background-position: center center!important;
+	background-repeat: no-repeat;
+}
+#wpbody .form-group input[type="number"]{
+	height: 34px;
+	width: 100%;
+}
+#wpbody .form-group button{
+ width: 100%;
+ text-align: left;
+ min-height: 34px;
+}
+#wpbody .form-group .caret{
+    margin-left: 0;
+
+    float: right;
+    position: relative;
+    top: 7px;
+}
+
+#wpbody #web_favicon{
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+
+}
+#wpbody .web-favicon{
+	height: 16px;
+}
+#wpbody  .submit{
+	float: left;
+}
+#wpbody .default-button{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+
+/*
+          ColorPicker
+======================
+*/
+.palette-color-picker-bubble.double .swatch{
+	width: 15.30%!important;
+}
+.palette-color-picker-button ~ input{
+	position: relative;
+	bottom: 10px;
+}
+.palette-color-picker-bubble{
+	z-index: 100;
+}

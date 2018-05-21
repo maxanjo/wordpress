@@ -1,0 +1,381 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Webove Framework 1.0\n"
+"POT-Creation-Date: 2018-05-20 15:11+0400\n"
+"PO-Revision-Date: 2018-05-20 15:11+0400\n"
+"Last-Translator: \n"
+"Language-Team: Maxim Sokolov, maxanjo512@gmail.com\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid ""
+"Sorry, but the page you are looking for has not found. Try checking the URL "
+"for errors, then hit the refresh<br /> button on your browser"
+msgstr ""
+"Извините, но страница, которую вы ищете не найдена. Попробуйте проверять URL-"
+"ссылку в вашем браузере на наличие ошибок, а затем нажмите кнопку Обновить."
+
+#: blog-page.php:30
+msgid "Prev"
+msgstr "Назад"
+
+#: blog-page.php:31
+msgid "Next"
+msgstr "Вперед"
+
+#: inc/function-admin.php:19
+msgid "General options"
+msgstr "Общие настройки"
+
+#: inc/function-admin.php:19
+msgid "General"
+msgstr "Общие настройки"
+
+#: inc/function-admin.php:20
+msgid "Social options"
+msgstr "Настройка социальных сетей"
+
+#: inc/function-admin.php:20
+msgid "Social"
+msgstr "Социальные сети"
+
+#: inc/function-admin.php:21 inc/templates/template-custom-css.php:1
+msgid "Custom css"
+msgstr "Пользовательский Css"
+
+#: inc/function-admin.php:21
+msgid "Custom Css"
+msgstr "Пользовательский Css"
+
+#: inc/function-admin.php:22 inc/function-admin.php:32
+msgid "Theme Options"
+msgstr "Персональные настройки темы"
+
+#: inc/function-admin.php:23
+msgid "Typography"
+msgstr "Шрифты"
+
+#: inc/function-admin.php:65
+msgid "Css Options"
+msgstr "Css настройки"
+
+#: inc/function-admin.php:71
+msgid "insert your Custom Css"
+msgstr "Поле для ввода пользовательских стилей"
+
+#: inc/function-admin.php:77 inc/templates/template-general.php:5
+#: inc/templates/template-options.php:5 inc/templates/template-social.php:5
+#: inc/templates/template-typography.php:5
+msgid "Customize Your General Information"
+msgstr "Настройка общих параметров сайта"
+
+#: inc/function-admin.php:80
+msgid "Write your own styles in the form below"
+msgstr "Здесь вы можете написать свои собственные стили"
+
+#: inc/options/config-generals.php:4
+msgid "Logo"
+msgstr "Логотип"
+
+#: inc/options/config-generals.php:9
+msgid "Upload a Logo"
+msgstr "Загрузить Логотип"
+
+#: inc/options/config-generals.php:14
+msgid "Footer Logo"
+msgstr "Лого в футере"
+
+#: inc/options/config-generals.php:19
+msgid "Upload a Footer logo"
+msgstr "Загрузить логотип в футер"
+
+#: inc/options/config-generals.php:20
+msgid "If your theme support footer logo, please upload it here"
+msgstr "Если ваша тема поддерживает функцию Лого в подвале, загрузите ее здесь"
+
+#: inc/options/config-generals.php:25
+msgid "Favicon"
+msgstr "Фавикон"
+
+#: inc/options/config-generals.php:30
+msgid "Upload a Favicon"
+msgstr "Загрузить фавикон"
+
+#: inc/options/config-generals.php:31
+msgid "Load a favicon: 16x16, 32x32, or 48x48"
+msgstr "Загрузите вашу фавикон иконку: 16x16, 32x32, или 48x48"
+
+#: inc/options/config-generals.php:36
+msgid "Show a loader"
+msgstr "Показать загрузчик"
+
+#: inc/options/config-generals.php:45
+msgid "loading image"
+msgstr "Анимация загрузки"
+
+#: inc/options/config-generals.php:50
+msgid "Upload an image"
+msgstr "Загрузить"
+
+#: inc/options/config-generals.php:51
+msgid "Gif, jpg, png"
+msgstr ""
+
+#: inc/options/config-generals.php:56
+msgid "Copyright text"
+msgstr "Авторство"
+
+#: inc/options/config-options.php:4
+msgid "Main color"
+msgstr "Главный цвет"
+
+#: inc/options/config-options.php:5
+msgid "Select a main color of your theme"
+msgstr "Выберите главный цвет вашей темы"
+
+#: inc/options/config-options.php:14
+msgid "Secondary color"
+msgstr "Второстепенный цвет"
+
+#: inc/options/config-options.php:15
+msgid "Select a secondary color of your theme"
+msgstr "Выберите второстепенный цвет вашей темы"
+
+#: inc/options/config-options.php:24
+msgid "Buttons settings"
+msgstr "Настройки кнопок"
+
+#: inc/options/config-options.php:25
+msgid "Select style of your buttons"
+msgstr "Выберите стиль кнопок"
+
+#: inc/options/config-options.php:29 inc/options/config-typography.php:11
+msgid "Font Family"
+msgstr "Семейство шрифтов"
+
+#: inc/options/config-options.php:35 inc/options/config-typography.php:17
+msgid "Font Size"
+msgstr "Размер"
+
+#: inc/options/config-options.php:41 inc/options/config-typography.php:23
+msgid "Font Color"
+msgstr "Цвет"
+
+#: inc/options/config-options.php:47
+msgid "Background"
+msgstr "Фон"
+
+#: inc/options/config-options.php:48
+msgid "Select a background"
+msgstr "Выберите фон"
+
+#: inc/options/config-options.php:52
+msgid "Background Image"
+msgstr "Фоновое изображение"
+
+#: inc/options/config-options.php:54
+msgid "Select Backgroung"
+msgstr "Выберите Фон"
+
+#: inc/options/config-options.php:58
+msgid "Background Position"
+msgstr "Позиция Фона"
+
+#: inc/options/config-options.php:75
+msgid "Background Repeat"
+msgstr "Повторение Фона"
+
+#: inc/options/config-options.php:86
+msgid "Background Color"
+msgstr "Цвет Фона"
+
+#: inc/options/config-socials.php:4
+msgid "Facebook"
+msgstr "Фейсбук"
+
+#: inc/options/config-socials.php:13
+msgid "Twitter"
+msgstr "Твитер"
+
+#: inc/options/config-socials.php:22
+msgid "VK"
+msgstr "Вконтакте"
+
+#: inc/options/config-socials.php:31
+msgid "Youtube"
+msgstr "Ютуб"
+
+#: inc/options/config-socials.php:40
+msgid "Instagram"
+msgstr "Инстаграм"
+
+#: inc/options/config-typography.php:5
+msgid "Font Body settings"
+msgstr "Основной шрифт"
+
+#: inc/options/config-typography.php:6
+msgid "Select a font family, a size and a color"
+msgstr "Выберите шрифт, размер и цвет"
+
+#: inc/options/config-typography.php:28
+msgid "Enable default body font"
+msgstr "Включить шрифт по умолчанию"
+
+#: inc/options/config-typography.php:37
+msgid "Heading h1 settings"
+msgstr "Заголовки h1 настройки"
+
+#: inc/options/config-typography.php:38
+msgid "Select h1 heading family, size and color"
+msgstr "Выберите шрифт, размер и цвет"
+
+#: inc/options/config-typography.php:43
+msgid "Heading h1 Family"
+msgstr "Семейство шрифтов"
+
+#: inc/options/config-typography.php:49
+msgid "Heading h1 Size"
+msgstr "Размер"
+
+#: inc/options/config-typography.php:55
+msgid "Heading h1 Color"
+msgstr "Цвет"
+
+#: inc/options/config-typography.php:60
+msgid "Heading h3 settings"
+msgstr "Заголовки h3 настройки"
+
+#: inc/options/config-typography.php:61
+msgid "Select h3 heading family, size and color"
+msgstr "Выберите шрифт, размер и цвет"
+
+#: inc/options/config-typography.php:66
+msgid "Heading h3 Family"
+msgstr "Семейство шрифтов"
+
+#: inc/options/config-typography.php:72
+msgid "Heading h3 Size"
+msgstr "Размер"
+
+#: inc/options/config-typography.php:78
+msgid "Heading h3 Color"
+msgstr "Цвет"
+
+#: inc/options/config-typography.php:83
+msgid "Heading h5 settings"
+msgstr "Загловки h5 настройки"
+
+#: inc/options/config-typography.php:84
+msgid "Select h5 heading family, size and color"
+msgstr "Выберите шрифт, размер и цвет"
+
+#: inc/options/config-typography.php:89
+msgid "Heading h5 Family"
+msgstr "Семейство шрифтов"
+
+#: inc/options/config-typography.php:95
+msgid "Heading h5 Size"
+msgstr "Размер"
+
+#: inc/options/config-typography.php:101
+msgid "Heading h5 Color"
+msgstr "Цвет"
+
+#: inc/options/config-typography.php:106
+msgid "Enable default heading fonts"
+msgstr "Заголовки по умолчанию"
+
+#: inc/templates/partials/options-admin.php:85
+msgid "Remove"
+msgstr "Удалить"
+
+#: inc/templates/template-general.php:4 inc/templates/template-options.php:4
+#: inc/templates/template-social.php:4 inc/templates/template-typography.php:4
+msgid "General Options"
+msgstr "Основные настройки"
+
+#: search.php:17
+msgid "Previous page"
+msgstr "Назад"
+
+#: search.php:18
+msgid "Next page"
+msgstr "Вперед"
+
+#: search.php:24
+msgid "Nothing found"
+msgstr "Ничего не найдено"
+
+#: search.php:25
+msgid ""
+"Sorry, but nothing matched your search criteria. Please type again with some "
+"different keywords"
+msgstr ""
+"Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые "
+"слова."
+
+#: searchform.php:2
+msgid "Search"
+msgstr "Поиск"
+
+#: template-parts/content.php:21
+msgid "Back"
+msgstr "Назад"
+
+#: template-parts/content.php:23
+msgid "Learn more"
+msgstr "Читать"
+
+#~ msgid "google"
+#~ msgstr "Гугл"
+
+#~ msgid "vk"
+#~ msgstr "Вконтакте"
+
+#~ msgid "odnoklassniki"
+#~ msgstr "Одноклассники"
+
+#~ msgid "Body Family"
+#~ msgstr "Семейство"
+
+#~ msgid "Body Size"
+#~ msgstr "Размер"
+
+#~ msgid "Remove Logo"
+#~ msgstr "Удалить Логотип"
+
+#~ msgid "Upload a Footer Logo"
+#~ msgstr "Загрузить логотип в футер"
+
+#~ msgid "Remove Footer Logo"
+#~ msgstr "Удалить Логотип в футере"
+
+#~ msgid "Remove Favicon"
+#~ msgstr "Удалить фавиконку"
+
+#~ msgid "Load a favicon icon: 16x16, 32x32, or 48x48"
+#~ msgstr "Загрузите вашу фавикон иконку: 16x16, 32x32, или 48x48"
+
+#~ msgid "Save Changes"
+#~ msgstr "Сохранить изменения"
+
+#~ msgid "&lt; Back to the Blog"
+#~ msgstr "Блог"
+
+#, fuzzy
+#~ msgid "Customize Your Social Settings"
+#~ msgstr "Соц"
+
+#, fuzzy
+#~| msgid "Social options"
+#~ msgid "Social Settings"
+#~ msgstr "Настройка соцальных сетей"

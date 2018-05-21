@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "OpenSansRegular";
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot");
+    src: url("../fonts/OpenSansRegular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.woff") format("woff"),
+    url("../fonts/OpenSansRegular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MonotypeCorsiva";
+    src: url("../fonts/MonotypeCorsiva/MonotypeCorsiva.eot");
+    src: url("../fonts/MonotypeCorsiva/MonotypeCorsiva.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MonotypeCorsiva/MonotypeCorsiva.woff") format("woff"),
+    url("../fonts/MonotypeCorsiva/MonotypeCorsiva.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
