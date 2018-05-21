@@ -1,5 +1,5 @@
 <?php
-define('SITE_NAME', 'Alizee');
+define('SITE_NAME', 'Webove');
 $default_color = '#167b8a';  //Main color
 $default_secondary_color = '#d6bb22';  //Second color
 $default_buttons_family = 'Abel, Abel';  //Buttons. With a comma! 
