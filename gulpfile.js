@@ -27,7 +27,7 @@ gulp.task('browser-sync', ['styles'], function() {
 
 // SFTP
 gulp.task('sftp-full', function () {
-    return gulp.src(['./**', '!./node_modules/**', '!./git/**', '!./gulp.config.js', '!./gulpfile.js', '!./notify.png', '!./package.json','!./wp-content/themes/project/sass/**'])
+    return gulp.src(['./**', '!./node_modules/**', '!./git/**', '!./gulp.config.js', '!./gulpfile.js', '!./notify.png', '!./package.json','!./wp-content/themes/project/assets/sass/**'])
 
         .pipe(sftp({
             host: 'yourhost',
@@ -38,7 +38,7 @@ gulp.task('sftp-full', function () {
 });
 
 gulp.task('sftp-theme', function () {
-    return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/sass/**'])
+    return gulp.src(['./wp-content/themes/project/**', '!./wp-content/themes/project/assets/sass/**'])
 
         .pipe(sftp({
             host: 'yourhost',
@@ -60,30 +60,30 @@ gulp.task('sftp-php', function () {
 });
 
 gulp.task('sftp-css', function () {
-    return gulp.src('./wp-content/themes/project/css/**')
+    return gulp.src('./wp-content/themes/project/assets/css/**')
 
         .pipe(sftp({
             host: 'yourhost',
             user: 'username',
             pass: 'password',
-            remotePath: '/public_html/wp-content/themes/project/css'
+            remotePath: '/public_html/wp-content/themes/project/assets/css'
         }));
 });
 gulp.task('sftp-scripts', function () {
-    return gulp.src('./wp-content/themes/project/scripts/**')
+    return gulp.src('./wp-content/themes/project/assets/scripts/**')
 
         .pipe(sftp({
             host: 'yourhost',
             user: 'username',
             pass: 'password',
-            remotePath: '/public_html/wp-content/themes/project/scripts'
+            remotePath: '/public_html/wp-content/themes/project/assets/scripts'
         }));
 });
 
 
 // Styles
 gulp.task('styles', function () {
-	return gulp.src('./wp-content/themes/project/sass/*.sass')
+	return gulp.src('./wp-content/themes/project/assets/sass/*.sass')
 	.pipe(sass({
 		includePaths: require('node-bourbon').includePaths
 	}).on('error', notify.onError(function(err){
@@ -95,26 +95,26 @@ gulp.task('styles', function () {
       }
     })))
 	.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
-	.pipe(gulp.dest('wp-content/themes/project/css'))
+	.pipe(gulp.dest('wp-content/themes/project/assets/css'))
 	.pipe(browserSync.stream());
 });
 
 
 // Sprites JPG PNG
 gulp.task('sprite', function () {
-  var spriteData = gulp.src('./wp-content/themes/project/img/icons/*.png').pipe(spritesmith({
+  var spriteData = gulp.src('./wp-content/themes/project/assets/img/icons/*.png').pipe(spritesmith({
     imgName: 'sprite.png',
     cssName: 'sprite.sass',
     padding: 30
   }));
-  return spriteData.pipe(gulp.dest('./wp-content/themes/project/css'));
+  return spriteData.pipe(gulp.dest('./wp-content/themes/project/assets/css'));
 });
 
 
 // Watch
 gulp.task('watch', function () {
-	gulp.watch('./wp-content/themes/project/sass/*.sass', ['styles']);
-	gulp.watch('./wp-content/themes/project/scripts/*.js').on("change", browserSync.reload);
+	gulp.watch('./wp-content/themes/project/assets/sass/*.sass', ['styles']);
+	gulp.watch('./wp-content/themes/project/assets/scripts/*.js').on("change", browserSync.reload);
 	gulp.watch('./wp-content/themes/project/*.html').on('change', browserSync.reload);
 	gulp.watch('./wp-content/themes/project/**/*.php').on('change', browserSync.reload);
 });
