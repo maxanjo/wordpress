@@ -234,6 +234,7 @@ $('.single-page a.permalink').click(function(e){
 })
 
 
+
 // Кроссбраузерность
     var isMobile = {
         Android: function() {
@@ -265,4 +266,4 @@ $('.single-page a.permalink').click(function(e){
       // $('#menu').css({'display': 'table', 'padding-top': '16px'});
       // $('#menu ul').css({'display': 'table-cell', 'vertical-align': 'middle', 'padding-top': '15px'});
     };
- });
+})

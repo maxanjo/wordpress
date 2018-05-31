@@ -163,7 +163,7 @@ main#main {
     width: 16px;
     display: block;
     background-image: url(sprite.png);
-    background-position: 0px -80px;
+    background-position: -152px -173px;
     width: 16px;
     height: 16px; }
 
@@ -339,7 +339,7 @@ menu#menu {
           menu#menu ul li:last-child {
             margin-right: 0; } }
       menu#menu ul li a {
-        font-size: 1.4rem;
+        font-size: 14px;
         font-family: Arial;
         color: #313131;
         display: block;

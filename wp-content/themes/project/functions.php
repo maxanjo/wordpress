@@ -14,13 +14,33 @@ add_filter( 'document_title_separator', function(){ return ' « '; } );
 
 include(get_template_directory() . '/custom/widgets.php');
 
-// Load up our awesome theme options
+include(get_template_directory() . '/includes/custom-header.php');
+include(get_template_directory() . '/includes/customizer.php');
+include(get_template_directory() . '/includes/template-functions.php');
+include(get_template_directory() . '/includes/template-tags.php');
+include(get_template_directory() . '/includes/ajax.php');
+
+if(defined('JETPACK_VERSION')){
+    include(get_template_directory() . '/includes/jetpack.php');
+
+}
+
+if(class_exists('Woocommerce')){
+    include(get_template_directory() . '/includes/woocommerce.php');
+    include(get_template_directory() . '/woocommerce/includes/wc-functions-remove.php');
+    include(get_template_directory() . '/woocommerce/includes/wc-functions.php');
+}
+
+
+// Load up our theme options
 require  get_template_directory() . '/inc/function-admin.php';
 require  get_template_directory() . '/inc/enqueue.php';
 add_action('after_setup_theme', 'my_theme_setup');
 function my_theme_setup(){
     load_theme_textdomain('webove', get_template_directory() . '/languages');
 }
+
+require  get_template_directory() . '/enqueue-script-style.php';
 
 // SideBar
 function true_register_wp_sidebars() {
@@ -52,4 +72,6 @@ function true_register_wp_sidebars() {
     );
 }
 add_action( 'widgets_init', 'true_register_wp_sidebars' );
+
+
 
