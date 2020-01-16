@@ -30,6 +30,8 @@ function web_load_admin_scripts($current_){
 		wp_enqueue_script('web-minicolors');
 		wp_register_style('web-minicolors', get_template_directory_uri() . '/inc/css/jquery.minicolors.css', array(), '1.0.0', 'all');
 		wp_enqueue_style('web-minicolors');
+		wp_register_script('mediaelement', plugins_url('wp-mediaelement.min.js', '../../wp-includes/js/mediaelement/mediaelement.min.js'), array('jquery'), '1.0.0', true);
+		wp_enqueue_script('mediaelement');
 		wp_localize_script('web-jquery', 'directory', array( 'url' => get_template_directory_uri() ));
 	}
 	}
