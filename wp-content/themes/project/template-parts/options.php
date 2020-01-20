@@ -33,5 +33,7 @@ $bg_position_string = esc_attr( get_option('web_bg_position'));
 $bg_color = esc_attr( get_option('web_bg_color'));
 $bg_repeat = explode(', ', $bg_repeat_string);
 $bg_position = explode(', ', $bg_position_string);
+$web_main_color = esc_attr( get_option('web_main_color'));
+$web_second_color = esc_attr( get_option('web_second_color'));
 
 ?>
