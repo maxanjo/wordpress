@@ -31,16 +31,11 @@
   }
     
   if(isset($web_main_color) and $web_main_color !==''){
-    echo '.main-color{color: '.$web_main_color.'}';
+    echo '.main-color{color: '.$web_main_color.'}.main-bg{background-color:'.$web_main_color.'}a:not(.button):hover{color: '.$web_main_color.'!important}';
   }
-  if(isset($web_main_color) and $web_main_color !==''){
-    echo '.main-bg{background-color:'.$web_main_color.'}';
-  }
+
   if(isset($web_second_color) and $web_second_color !==''){
-    echo '.sec-color{color: '.$web_second_color.'}';
-  }
-  if(isset($web_second_color) and $web_second_color !==''){
-    echo '.sec-bg{background-color:'.$web_second_color.'}';
+    echo '.sec-color{color: '.$web_second_color.'}.sec-bg{background-color:'.$web_second_color.'}';
   }
     if(isset($buttons_family) and $buttons_family !==''){
     echo '.button{font-family:'.$buttons_family.'}';
